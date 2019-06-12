@@ -1,0 +1,109 @@
+/* COURSES CARD CONTAINER */
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.section-courses__flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    background: #00467f;
+    background-image: linear-gradient(to right,
+        rgba(20, 30, 48, 0.8),
+        rgba(36, 59, 85, 0.8)),
+      url(../Images//courses-img.jpg);
+    background-image: -webkit-linear-gradient(to right,
+        rgba(20, 30, 48, 0.8),
+        rgba(36, 59, 85, 0.8)),
+        url(../Images//courses-img.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+  }
+  
+  .section-courses__flex h1 {
+    width: 100%;
+  }
+
+.courses__flex {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .course__logo {
+    flex-basis: 15%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+  }
+  
+  .course__name {
+    flex-basis: 20%;
+    background-color: #f0ede5;
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .course__desc {
+    flex-basis: 50%;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .course__btns {
+    flex-basis: 20%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .udemy {
+    width: 35px;
+    height: 35px;
+    padding-bottom: 8px;
+  }
+  
+  .rest {
+    width: 130px;
+    height: auto;
+    padding-bottom: 8px;
+  }
+  
+  .button-course-1 {
+    flex-basis: 50%;
+    background-color: #dddddd;
+    height: 35px;
+    padding: 0 15 0 15;
+    color: #3b444b;
+    background-color: white;
+    border: 1px solid #3b444b;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    outline: none;
+  }
+  
+  .button-course-1:hover {
+    background-color: #414a4c;
+    color: white;
+  }
+  
