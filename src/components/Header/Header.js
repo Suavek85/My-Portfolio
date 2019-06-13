@@ -37,8 +37,9 @@ class Header extends Component {
   }
 
   render() {
-    //const descLettersString = `Hello, I am Suavek`;
-    //const splitString = descLettersString.split("");
+    const descLettersString = `Hello, I am Suavek`;
+    const splitString = descLettersString.split("");
+    console.log(splitString);
 
     return (
       <section id="aboutme" class="about">
@@ -82,24 +83,13 @@ class Header extends Component {
         <h1 class="ml14 about__header">
           <span class="text-wrapper">
             <span class="letters">
-              <span class="letter">H</span>
-              <span class="letter">e</span>
-              <span class="letter">l</span>
-              <span class="letter">l</span>
-              <span class="letter">o</span>
-              <span class="letter">.</span>
-              <span class="letter">&nbsp; </span>
-              <span class="letter">I</span>
-              <span class="letter">'</span>
-              <span class="letter">m</span>
-              <span class="letter">&nbsp;</span>
-              <span class="letter">S</span>
-              <span class="letter">u</span>
-              <span class="letter">a</span>
-              <span class="letter">v</span>
-              <span class="letter">e</span>
-              <span class="letter">k</span>
-              <span class="letter">.</span>
+              {splitString.map((el, i) =>
+                el.match(/[^\s*$]/i) ? (
+                  <span class="letter">{el}</span>
+                ) : (
+                  <span> </span>
+                )
+              )}
             </span>
             <span class="line" />
           </span>

@@ -5,7 +5,7 @@ import { coursesProjectsInfo } from "./CoursesProjectsInfo";
 
 const CoursesProjects = () => (
   <section class="section-projects__flex">
-    <h1 class="ownprojects">SELECTED PROJECTS FROM COURSES:</h1>
+    <h1 id="coursesprojects" >SELECTED PROJECTS FROM COURSES:</h1>
 
     {coursesProjectsInfo.map(el => {
       return (
