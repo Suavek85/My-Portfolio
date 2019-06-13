@@ -146,9 +146,9 @@
     flex-basis: 50%;
     height: 45px;
     padding: 0 20 0 20;
-    color: #0099cc;
+    color: grey;
     background-color: white;
-    border: 1px solid #0099cc;
+    border: 1px solid grey;
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
@@ -164,9 +164,9 @@
     flex-basis: 50%;
     height: 45px;
     padding: 0 20 0 20;
-    color: #0099cc;
+    color: grey;
     background-color: white;
-    border: 1px solid #0099cc;
+    border: 1px solid grey;
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;

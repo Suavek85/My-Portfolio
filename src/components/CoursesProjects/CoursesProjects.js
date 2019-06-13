@@ -32,7 +32,7 @@ const CoursesProjects = () => (
 
             <div class="card__content">
               <h1 class="card__title">
-                {el.name}
+                {el.name}<br/>{el.subName}
               </h1>
               <p>{el.desc}</p>
              

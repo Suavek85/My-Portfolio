@@ -5,7 +5,8 @@ import Background6 from "../Images/new-pig-game.PNG"
 
 export const coursesProjectsInfo = [
   {
-    name: "Face Recognition. React App + backend + db.",
+    name: "Face Recognition.",
+    subName: "React + backend + db.",
     desc:
       "From 'The Complete Web Developer in 2018' course. With Express.js, PostgreSQL. Deployed on Heroku.",
     background: Background4,
@@ -14,7 +15,8 @@ export const coursesProjectsInfo = [
       "https://github.com/Suavek85/Face-recognition-app"
   },
   {
-    name: "Robofriends. Simple React App.",
+    name: "Robofriends.",
+    subName: "Simple React App.",
     desc:
       "From 'The Complete Web Developer in 2018' course.",
     background: Background5,
@@ -23,7 +25,8 @@ export const coursesProjectsInfo = [
       "https://github.com/Suavek85/Robofriends---React-app"
   },
   {
-    name: "Pig Game. JavaScript Game.",
+    name: "Pig Game.",
+    subName: "JavaScript Game.",
     desc: "From 'The Complete JavaScript Course 2018: Build Real Projects!'Online version of a popular dice game.",
     background: Background6 ,
     previewLink: "https://htmlpreview.github.io/?https://github.com/Suavek85/The-Complete-JavaScript-Course-2018/blob/master/DOM%20Pig%20Game/index.html",

@@ -39,8 +39,7 @@ class Header extends Component {
   render() {
     const descLettersString = `Hello, I am Suavek`;
     const splitString = descLettersString.split("");
-    console.log(splitString);
-
+    
     return (
       <section id="aboutme" class="about">
         <nav class="nav">
