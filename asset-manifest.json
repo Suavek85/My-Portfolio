@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.e767a8bd.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.c90bfee4.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.c90bfee4.chunk.js.map",
+    "runtime~main.js": "/My-Portfolio/static/js/runtime~main.f7066801.js",
+    "runtime~main.js.map": "/My-Portfolio/static/js/runtime~main.f7066801.js.map",
+    "static/js/2.d1f11933.chunk.js": "/My-Portfolio/static/js/2.d1f11933.chunk.js",
+    "static/js/2.d1f11933.chunk.js.map": "/My-Portfolio/static/js/2.d1f11933.chunk.js.map",
+    "index.html": "/My-Portfolio/index.html",
+    "precache-manifest.ab9a58dfc946a204685e89d30ff1cc86.js": "/My-Portfolio/precache-manifest.ab9a58dfc946a204685e89d30ff1cc86.js",
+    "service-worker.js": "/My-Portfolio/service-worker.js",
+    "static/css/main.e767a8bd.chunk.css.map": "/My-Portfolio/static/css/main.e767a8bd.chunk.css.map",
+    "static/media/Header.css": "/My-Portfolio/static/media/about-img-gen.747de140.jpg",
+    "static/media/WebCourses.css": "/My-Portfolio/static/media/courses-img.ac15587c.jpg",
+    "static/media/new-annual-planner.PNG": "/My-Portfolio/static/media/new-annual-planner.79614511.PNG",
+    "static/media/new-emoticon-app.PNG": "/My-Portfolio/static/media/new-emoticon-app.6684c1d3.PNG",
+    "static/media/new-face-recognition.PNG": "/My-Portfolio/static/media/new-face-recognition.17e9f1d6.PNG",
+    "static/media/new-music-app.PNG": "/My-Portfolio/static/media/new-music-app.bce9bd11.PNG",
+    "static/media/new-pig-game.PNG": "/My-Portfolio/static/media/new-pig-game.6249cb2d.PNG",
+    "static/media/new-playgrounds.PNG": "/My-Portfolio/static/media/new-playgrounds.38a6c143.PNG",
+    "static/media/new-robo-friends.PNG": "/My-Portfolio/static/media/new-robo-friends.ea9b7c86.PNG",
+    "static/media/new-typing-game.PNG": "/My-Portfolio/static/media/new-typing-game.8c6b2d2c.PNG",
+    "static/media/new-white-villages.PNG": "/My-Portfolio/static/media/new-white-villages.da7b2538.PNG",
+    "static/media/udemy1.png": "/My-Portfolio/static/media/udemy1.13078d37.png"
+  }
+}
