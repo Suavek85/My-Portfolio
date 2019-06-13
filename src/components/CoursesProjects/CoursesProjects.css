@@ -56,7 +56,7 @@
 .card__svg {
     position: absolute;
     left: 0;
-    top: 85px;
+    top: 65px;
 }
 
 @keyframes LineFadeIn {
