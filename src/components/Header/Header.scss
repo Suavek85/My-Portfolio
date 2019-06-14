@@ -34,22 +34,21 @@
   align-content: flex-end;
   justify-content: flex-end;
   flex-wrap: wrap;
-}
 
-.menu__link {
-  text-decoration: none;
-  color: #ddd;
-  padding: 20px;
-}
+  &__link {
+    text-decoration: none;
+    color: #ddd;
+    padding: 20px;
+  }
 
-
-.about__content {
-  color: #ccc;
-  max-width: 500px;
-  line-height: 2.5;
-  text-align: center;
-  justify-content: center;
-  align-self: center;
+  &__content {
+    color: #ccc;
+    max-width: 500px;
+    line-height: 2.5;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+  }
 }
 
 .skills {
@@ -59,26 +58,26 @@
   align-items: center;
   flex-wrap: wrap;
   padding-top: 40px;
+
+  &__header {
+    color: #0099cc;
+    text-align: center;
+    padding-top: 20px;
+    display: block;
+  }
+  &__icons {
+    display: flex;
+    font-size: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    width: 500px;
+    transform: translateY(370px)
+  }
 }
 
-.skills__header {
-  color: #0099cc;
-  text-align: center;
-  padding-top: 20px;
-  display: block;
-}
 
-.skills__icons {
-  display: flex;
-  font-size: 50px;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 20px 0;
-  width: 500px;
-  transform: translateY(370px)
-}
-
-/* ANIME.JS H1*/
+/* ANIME.JS H1 ANIMATION */
 
 .ml14 {
   font-weight: 900;

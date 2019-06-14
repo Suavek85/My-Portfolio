@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Header.css";
+import "./Header.scss";
 import anime from "animejs/lib/anime.es.js";
 
 class Header extends Component {
@@ -39,7 +39,7 @@ class Header extends Component {
   render() {
     const descLettersString = `Hello, I am Suavek`;
     const splitString = descLettersString.split("");
-    
+
     return (
       <section id="aboutme" class="about">
         <nav class="nav">
@@ -78,11 +78,10 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
-
         <h1 class="ml14 about__header">
           <span class="text-wrapper">
             <span class="letters">
-              {splitString.map((el, i) =>
+              {splitString.map(el =>
                 el.match(/[^\s*$]/i) ? (
                   <span class="letter">{el}</span>
                 ) : (
@@ -93,12 +92,10 @@ class Header extends Component {
             <span class="line" />
           </span>
         </h1>
-
         <div class="about-desc">
           I love coding and solving problems in my free time. Here's my short
           portfolio.
         </div>
-
         <div class="skills">
           <h2 class="skills__header">SKILLS</h2>
           <div class="skills__icons">
