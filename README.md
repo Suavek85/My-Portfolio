@@ -1,7 +1,7 @@
 # My Portfolio
 
 
-> React.js static portfolio with some of my projects and courses completed. IN PROGRESS, JUST STARTED.
+> React.js static portfolio with some of my projects and courses completed. IN PROGRESS.
 
  
 ## Table of Contents

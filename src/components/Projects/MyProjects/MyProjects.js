@@ -1,5 +1,5 @@
 import React from "react";
-import "../Projects.css";
+import "../Projects.scss";
 import { myProjectsInfo } from "./MyProjectsInfo";
 
 
@@ -42,14 +42,14 @@ const MyProjects = () => (
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button class="project__btn-left">Preview</button>
+                  <button class="project__btn">Preview</button>
                 </a>
                 <a
                   href={el.readmeLink}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button class="project__btn-right">Readme</button>
+                  <button class="project__btn">Readme</button>
                 </a>
               </div>
             </div>

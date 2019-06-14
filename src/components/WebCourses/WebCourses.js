@@ -1,5 +1,5 @@
 import React from "react";
-import "./WebCourses.css";
+import "./WebCourses.scss";
 import { webCoursesInfo } from './WebCoursesInfo';
 
 const WebCourses = () => (
@@ -9,21 +9,21 @@ const WebCourses = () => (
     {webCoursesInfo.map(el => {
       return (
         <div class="courses__flex">
-          <div class="course__logo">
+          <div class="courses__logo">
             <div>
               <img src={el.logo} class={el.classDesc} alt={el.logo} />
             </div>
           </div>
 
-          <div class="course__name">
+          <div class="courses__name">
             {el.name}
           </div>
 
-          <div class="course__desc">
+          <div class="courses__desc">
             {el.desc}
           </div>
 
-          <div class="course__btns">
+          <div class="courses__btns">
             <a
               href={el.link}
               target="_blank"

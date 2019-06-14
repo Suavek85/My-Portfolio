@@ -5,9 +5,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-
-
-.section-courses__flex {
+.section-courses {
+  &__flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,12 +27,13 @@
     background-position: top;
     background-attachment: fixed;
   }
-  
-  .section-courses__flex h1 {
+  &__flex h1 {
     width: 100%;
   }
+}
 
-.courses__flex {
+.courses {
+  &__flex {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -44,8 +44,7 @@
     border-radius: 6px;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   }
-  
-  .course__logo {
+  &__logo {
     flex-basis: 15%;
     background-color: white;
     display: flex;
@@ -53,21 +52,18 @@
     justify-content: center;
     padding: 7px;
   }
-  
-  .course__name {
+  &__name {
     flex-basis: 20%;
     background-color: #f0ede5;
     padding: 10px;
     font-weight: 600;
   }
-  
-  .course__desc {
+  &__desc {
     flex-basis: 50%;
     background-color: white;
     padding: 10px;
   }
-  
-  .course__btns {
+  &__btns {
     flex-basis: 20%;
     background-color: white;
     display: flex;
@@ -75,7 +71,9 @@
     align-items: center;
     justify-content: space-around;
   }
+}
   
+
   .udemy {
     width: 35px;
     height: 35px;
@@ -83,7 +81,6 @@
   }
   
   .watchandcode {
-
     height: 35px;
     padding-bottom: 8px;
   }
