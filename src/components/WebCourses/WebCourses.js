@@ -11,7 +11,7 @@ const WebCourses = () => (
         <div class="courses__flex">
           <div class="course__logo">
             <div>
-              <img src={el.logo} class={el.classDesc} />
+              <img src={el.logo} class={el.classDesc} alt={el.logo} />
             </div>
           </div>
 

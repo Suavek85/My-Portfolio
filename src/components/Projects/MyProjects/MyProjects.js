@@ -1,13 +1,13 @@
 import React from "react";
-import "./CoursesProjects.css";
-import { coursesProjectsInfo } from "./CoursesProjectsInfo";
+import "../Projects.css";
+import { myProjectsInfo } from "./MyProjectsInfo";
 
 
-const CoursesProjects = () => (
+const MyProjects = () => (
   <section class="section-projects__flex">
-    <h1 id="coursesprojects" >SELECTED PROJECTS FROM COURSES:</h1>
+    <h1 id="ownprojects" class="ownprojects">INDEPENDENT PROJECTS BASED ON MY OWN IDEAS:</h1>
 
-    {coursesProjectsInfo.map(el => {
+    {myProjectsInfo.map(el => {
       return (
         <div class="container">
           <div class="card">
@@ -61,4 +61,4 @@ const CoursesProjects = () => (
 );
 
 
-export default CoursesProjects;
+export default MyProjects;

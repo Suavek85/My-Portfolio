@@ -1,9 +1,9 @@
-import Background1 from "../Images/new-annual-planner.PNG";
-import Background2 from "../Images/new-music-app.PNG";
-import Background3 from "../Images/new-emoticon-app.PNG"
-import Background4 from "../Images/new-typing-game.PNG";
-import Background5 from "../Images/new-white-villages.PNG";
-import Background6 from "../Images/new-playgrounds.PNG"
+import Background1 from "../../Images/new-annual-planner.PNG";
+import Background2 from "../../Images/new-music-app.PNG";
+import Background3 from "../../Images/new-emoticon-app.PNG"
+import Background4 from "../../Images/new-typing-game.PNG";
+import Background5 from "../../Images/new-white-villages.PNG";
+import Background6 from "../../Images/new-playgrounds.PNG"
 
 export const myProjectsInfo = [
   {

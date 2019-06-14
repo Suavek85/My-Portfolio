@@ -1,6 +1,6 @@
-import Background4 from "../Images/new-face-recognition.PNG";
-import Background5 from "../Images/new-robo-friends.PNG";
-import Background6 from "../Images/new-pig-game.PNG"
+import Background4 from "../../Images/new-face-recognition.PNG";
+import Background5 from "../../Images/new-robo-friends.PNG";
+import Background6 from "../../Images/new-pig-game.PNG"
 
 
 export const coursesProjectsInfo = [
