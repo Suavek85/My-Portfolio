@@ -6,9 +6,9 @@ import Background6 from "../../Images/new-pig-game.PNG"
 export const coursesProjectsInfo = [
   {
     name: "Face Recognition.",
-    subName: "React + backend + db.",
+    subName: "React App with backend.",
     desc:
-      "From 'The Complete Web Developer in 2018' course. With Express.js, PostgreSQL. Deployed on Heroku.",
+      "From 'The Complete Web Developer in 2018' course.",
     background: Background4,
     previewLink: "https://face-recognition-smart.herokuapp.com/",
     readmeLink:
@@ -27,7 +27,7 @@ export const coursesProjectsInfo = [
   {
     name: "Pig Game.",
     subName: "JavaScript Game.",
-    desc: "From 'The Complete JavaScript Course 2018: Build Real Projects!'Online version of a popular dice game.",
+    desc: "From 'The Complete JavaScript Course 2018: Build Real Projects!",
     background: Background6 ,
     previewLink: "https://htmlpreview.github.io/?https://github.com/Suavek85/The-Complete-JavaScript-Course-2018/blob/master/DOM%20Pig%20Game/index.html",
     readmeLink:

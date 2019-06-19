@@ -7,10 +7,10 @@ import Background6 from "../../Images/new-playgrounds.PNG"
 
 export const myProjectsInfo = [
   {
-    name: "Annual Planner App.",
-    subName: "Vanilla JS App + backend + db.",
+    name: "Annual Planner.",
+    subName: "Vanilla JS App + backend.",
     desc:
-      "To-do app based on my own idea.Front-end on GitHub Pages, back-end and database on Heroku.",
+      "Expanded to-do app. Front-end on GitHub Pages, backend on Heroku.",
     background: Background1,
     previewLink: "https://suavek85.github.io/Annual-Planner/",
     readmeLink:
@@ -28,8 +28,8 @@ export const myProjectsInfo = [
   },
   {
     name: "Emoticon Editor.",
-    subName: "React App. In progress.",
-    desc: "Simple React app for creating emoticons, with React Bootstrap.",
+    subName: "React App.",
+    desc: "Allows creating and downloading custom SVG emoticons, with React Bootstrap.",
     background: Background3 ,
     previewLink: "https://suavek85.github.io/Emoticon-Editor-App/",
     readmeLink:
@@ -39,14 +39,14 @@ export const myProjectsInfo = [
     name: "Typing Game.",
     subName: "Vanilla JavaScript Game.",
     desc:
-      "My first JavaScript project! Simple desktop keyboard typing game with 3 game levels.",
+      "My first JavaScript project! Simple desktop keyboard typing game with 3 levels.",
     background: Background4,
     previewLink: "https://suavek85.github.io/Typing-game/",
     readmeLink: "https://github.com/Suavek85/Typing-game/blob/master/README.md"
   },
   {
     name: "White Villages Tours.",
-    subName: "Simple travel website homepage.",
+    subName: "Website homepage.",
     desc: "Flexbox, CSS Grid and some basic responsiveness.",
     background: Background5,
     previewLink: "https://suavek85.github.io/White-Village-Tours-Homepage/",
@@ -55,7 +55,7 @@ export const myProjectsInfo = [
   },
   {
     name: "Playgrounds.",
-    subName: "Simple website homepage.",
+    subName: "Website homepage.",
     desc:
       "My first independent project. Flexbox and some basic responsiveness.",
     background: Background6,

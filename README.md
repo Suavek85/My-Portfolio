@@ -34,7 +34,7 @@ Based on the Vanilla JS version of my portfolio - preview [here](https://suavek8
 ## Technologies
 
 
-- HTML, CSS,
+- HTML, SCSS,
 
 - JavaScript,
 

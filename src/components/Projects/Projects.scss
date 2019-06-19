@@ -48,6 +48,9 @@
     margin-top: -1rem;
     opacity: 0;
     animation: ContentFadeIn 0.8s 1.6s forwards;
+    &--margin {
+      margin-top: -1rem;
+    }
   }
 
   &__svg {
@@ -135,24 +138,23 @@
 
 .project {
   &__btns {
-    flex-basis: 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    outline: none;
   }
 
   &__btn {
     flex-basis: 50%;
     height: 45px;
-    padding: 0 20 0 20;
-    color: grey;
+    padding: 0 20px 0 20px;
+    color: #3b444b;
     background-color: white;
     border: 1px solid grey;
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 14px;
     outline: none;
   }
 

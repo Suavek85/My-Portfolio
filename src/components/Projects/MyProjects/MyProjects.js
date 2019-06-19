@@ -30,7 +30,7 @@ const MyProjects = () => (
               />
             </svg>
 
-            <div class="card__content">
+            <div class="card__content card__content--margin">
               <h1 class="card__title">
                 {el.name}<br/>{el.subName}
               </h1>
