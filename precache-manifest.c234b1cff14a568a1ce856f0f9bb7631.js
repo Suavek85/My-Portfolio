@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf62073ac6948ce292749b53f9e494c2",
+    "revision": "5bd72882ccd463e30bf4e22cfb8b8520",
     "url": "/My-Portfolio/index.html"
   },
   {
-    "revision": "a1d7356805af852cf5ef",
+    "revision": "2c7d3a50c5a309f90175",
     "url": "/My-Portfolio/static/css/3.52d6be60.chunk.css"
   },
   {
-    "revision": "b6f03ec8239f40e7c4c3",
-    "url": "/My-Portfolio/static/css/main.12371dc9.chunk.css"
+    "revision": "1588425132af85904ef6",
+    "url": "/My-Portfolio/static/css/main.175aed8f.chunk.css"
   },
   {
-    "revision": "31ea51cde4a32df6dbfe",
-    "url": "/My-Portfolio/static/js/2.0994a213.chunk.js"
+    "revision": "c2f42e7a5b999f6f61e6",
+    "url": "/My-Portfolio/static/js/2.56db6929.chunk.js"
   },
   {
-    "revision": "a1d7356805af852cf5ef",
-    "url": "/My-Portfolio/static/js/3.a0a89e65.chunk.js"
+    "revision": "2c7d3a50c5a309f90175",
+    "url": "/My-Portfolio/static/js/3.c8a3f5e3.chunk.js"
   },
   {
-    "revision": "2a81fe350ea5fe092a32",
-    "url": "/My-Portfolio/static/js/4.117313d1.chunk.js"
+    "revision": "ec5c5b0cb5ded2b68cf2",
+    "url": "/My-Portfolio/static/js/4.5ba47ec0.chunk.js"
   },
   {
-    "revision": "b6f03ec8239f40e7c4c3",
-    "url": "/My-Portfolio/static/js/main.9f35d74d.chunk.js"
+    "revision": "1588425132af85904ef6",
+    "url": "/My-Portfolio/static/js/main.fedd871a.chunk.js"
   },
   {
-    "revision": "e6d5ee141ac1b2febc18",
-    "url": "/My-Portfolio/static/js/runtime~main.d28bbe27.js"
+    "revision": "cab34917ce3357c78dca",
+    "url": "/My-Portfolio/static/js/runtime~main.68acdf4c.js"
   },
   {
     "revision": "747de1400a971bc3db2c338033b7d7eb",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "17e9f1d6336ae230a90996694cba236c",
     "url": "/My-Portfolio/static/media/new-face-recognition.17e9f1d6.PNG"
+  },
+  {
+    "revision": "9a4a567ed5b1c4496b7af48769bf06c7",
+    "url": "/My-Portfolio/static/media/new-jigsaw.9a4a567e.PNG"
   },
   {
     "revision": "bce9bd1172b6d04a2b0cf3afd49d27e9",
