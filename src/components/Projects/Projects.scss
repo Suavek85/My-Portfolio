@@ -16,7 +16,7 @@
   position: relative;
   background: #333;
   width: 400px;
-  height: 75vh;
+  height: 500px;
   border-radius: 6px;
   padding: 2rem;
   color: #aaa;
@@ -25,6 +25,7 @@
 
   &__image-container {
     margin: -2rem -2rem 1rem -2rem;
+    height: 250px;
   }
 
   &__line {

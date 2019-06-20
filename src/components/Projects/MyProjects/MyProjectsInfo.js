@@ -8,7 +8,7 @@ import Background6 from "../../Images/new-playgrounds.PNG"
 export const myProjectsInfo = [
   {
     name: "Annual Planner.",
-    subName: "Vanilla JS App + backend.",
+    subName: "Vanilla JS + backend.",
     desc:
       "Expanded to-do app. Front-end on GitHub Pages, backend on Heroku.",
     background: Background1,
@@ -20,7 +20,7 @@ export const myProjectsInfo = [
     name: "Music Song App.",
     subName: "React App with Redux.",
     desc:
-      "Allows finding current most popular songs of any artist. Watching them on Youtube and more.",
+      "Find top songs of any artist or band. Then watch them on Youtube and more.",
     background: Background2,
     previewLink: "https://suavek85.github.io/Music-Song-App-with-Redux/",
     readmeLink:
