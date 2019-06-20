@@ -3,7 +3,8 @@ import Background2 from "../../Images/new-music-app.PNG";
 import Background3 from "../../Images/new-emoticon-app.PNG"
 import Background4 from "../../Images/new-typing-game.PNG";
 import Background5 from "../../Images/new-white-villages.PNG";
-import Background6 from "../../Images/new-playgrounds.PNG"
+import Background6 from "../../Images/new-playgrounds.PNG";
+import Background7 from "../../Images/new-jigsaw.PNG";
 
 export const myProjectsInfo = [
   {
@@ -14,7 +15,8 @@ export const myProjectsInfo = [
     background: Background1,
     previewLink: "https://suavek85.github.io/Annual-Planner/",
     readmeLink:
-      "https://github.com/Suavek85/Annual-Planner/blob/master/README.md"
+      "https://github.com/Suavek85/Annual-Planner/blob/master/README.md",
+    lineBreak: false
   },
   {
     name: "Music Song App.",
@@ -24,7 +26,8 @@ export const myProjectsInfo = [
     background: Background2,
     previewLink: "https://suavek85.github.io/Music-Song-App-with-Redux/",
     readmeLink:
-      "https://github.com/Suavek85/Music-Song-App-with-Redux/blob/master/README.md"
+      "https://github.com/Suavek85/Music-Song-App-with-Redux/blob/master/README.md",
+      lineBreak: false
   },
   {
     name: "Emoticon Editor.",
@@ -33,7 +36,8 @@ export const myProjectsInfo = [
     background: Background3 ,
     previewLink: "https://suavek85.github.io/Emoticon-Editor-App/",
     readmeLink:
-      "https://github.com/Suavek85/Emoticon-Editor-App/blob/master/README.md"
+      "https://github.com/Suavek85/Emoticon-Editor-App/blob/master/README.md",
+      lineBreak: false
   },
   {
     name: "Typing Game.",
@@ -42,7 +46,18 @@ export const myProjectsInfo = [
       "My first JavaScript project! Simple desktop keyboard typing game with 3 levels.",
     background: Background4,
     previewLink: "https://suavek85.github.io/Typing-game/",
-    readmeLink: "https://github.com/Suavek85/Typing-game/blob/master/README.md"
+    readmeLink: "https://github.com/Suavek85/Typing-game/blob/master/README.md",
+    lineBreak: false
+  },
+  {
+    name: "Jigsaw Puzzle Game.",
+    subName: "jQuery UI Project.",
+    desc:
+      "Created to practice jQuery UI. With Bootstrap. Just started, in progress.",
+    background: Background7,
+    previewLink: "https://suavek85.github.io/Beach-Jigsaw-Puzzle-Game/index.html",
+    readmeLink: "https://github.com/Suavek85/Beach-Jigsaw-Puzzle-Game/blob/master/README.md",
+    lineBreak: true,
   },
   {
     name: "White Villages Tours.",
@@ -51,7 +66,8 @@ export const myProjectsInfo = [
     background: Background5,
     previewLink: "https://suavek85.github.io/White-Village-Tours-Homepage/",
     readmeLink:
-      "https://github.com/Suavek85/White-Village-Tours-Homepage/blob/master/README.md"
+      "https://github.com/Suavek85/White-Village-Tours-Homepage/blob/master/README.md",
+      lineBreak: false,
   },
   {
     name: "Playgrounds.",
@@ -61,6 +77,7 @@ export const myProjectsInfo = [
     background: Background6,
     previewLink: "https://suavek85.github.io/Playgrounds-on-Costa-del-Sol/",
     readmeLink:
-      "https://github.com/Suavek85/Playgrounds-on-Costa-del-Sol/blob/master/README.md"
+      "https://github.com/Suavek85/Playgrounds-on-Costa-del-Sol/blob/master/README.md",
+      lineBreak: false,
   }
 ];
