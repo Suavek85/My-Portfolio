@@ -1,9 +1,4 @@
 /* COURSES CARD CONTAINER */
-* {
-  box-sizing: border-box;
-  line-height: 1.5;
-  font-family: 'Open Sans', sans-serif;
-}
 
 .section-courses {
   &__flex {
@@ -73,7 +68,6 @@
   }
 }
   
-
   .udemy {
     width: 35px;
     height: 35px;
@@ -84,7 +78,6 @@
     height: 35px;
     padding-bottom: 8px;
   }
-
 
   .rest {
     width: 130px;

@@ -6,10 +6,6 @@
       rgba(20, 30, 48, 0.9),
       rgba(36, 59, 85, 0.9)),
     url(../Images/about-img-gen.jpg);
-  background-image: -webkit-linear-gradient(to right,
-      rgba(20, 30, 48, 0.9),
-      rgba(36, 59, 85, 0.9)),
-    url(../Images/about-img-gen.jpg);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -106,4 +102,36 @@
 .ml14 .letter {
   display: inline-block;
   line-height: 1em;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 500px) {
+  .about__header {
+    padding: 10px;
+    line-height: 2;
+  }
+
+  .about__content {
+    line-height: 2;
+  }
+
+  .skills__header {
+    margin: auto;
+    padding-top: 5px;
+  }
+
+  .nav {
+    padding: 5px;
+  }
+
+  .skills__icons {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 500px) {
+  .menu {
+    justify-content: space-evenly;
+  }
 }
