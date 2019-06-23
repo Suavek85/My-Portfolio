@@ -1,6 +1,6 @@
 import Background1 from "../../Images/new-annual-planner.PNG";
 import Background2 from "../../Images/new-music-app.PNG";
-import Background3 from "../../Images/new-emoticon-app.PNG"
+import Background3 from "../../Images/new-emoticon-app.PNG";
 import Background4 from "../../Images/new-typing-game.PNG";
 import Background5 from "../../Images/new-white-villages.PNG";
 import Background6 from "../../Images/new-playgrounds.PNG";
@@ -10,8 +10,7 @@ export const myProjectsInfo = [
   {
     name: "Annual Planner.",
     subName: "Vanilla JS + backend.",
-    desc:
-      "Expanded to-do app. Front-end on GitHub Pages, backend on Heroku.",
+    desc: "Expanded to-do app. Front-end on GitHub Pages, backend on Heroku.",
     background: Background1,
     previewLink: "https://suavek85.github.io/Annual-Planner/",
     readmeLink:
@@ -27,17 +26,18 @@ export const myProjectsInfo = [
     previewLink: "https://suavek85.github.io/Music-Song-App-with-Redux/",
     readmeLink:
       "https://github.com/Suavek85/Music-Song-App-with-Redux/blob/master/README.md",
-      lineBreak: false
+    lineBreak: false
   },
   {
     name: "Emoticon Editor.",
     subName: "React App.",
-    desc: "Allows creating and downloading custom SVG emoticons, with React Bootstrap.",
-    background: Background3 ,
+    desc:
+      "Allows creating and downloading custom SVG emoticons, with React Bootstrap.",
+    background: Background3,
     previewLink: "https://suavek85.github.io/Emoticon-Editor-App/",
     readmeLink:
       "https://github.com/Suavek85/Emoticon-Editor-App/blob/master/README.md",
-      lineBreak: false
+    lineBreak: false
   },
   {
     name: "Typing Game.",
@@ -55,9 +55,11 @@ export const myProjectsInfo = [
     desc:
       "Created to practice jQuery UI. With Bootstrap. Just started, in progress.",
     background: Background7,
-    previewLink: "https://suavek85.github.io/Beach-Jigsaw-Puzzle-Game/index.html",
-    readmeLink: "https://github.com/Suavek85/Beach-Jigsaw-Puzzle-Game/blob/master/README.md",
-    lineBreak: true,
+    previewLink:
+      "https://suavek85.github.io/Beach-Jigsaw-Puzzle-Game/index.html",
+    readmeLink:
+      "https://github.com/Suavek85/Beach-Jigsaw-Puzzle-Game/blob/master/README.md",
+    lineBreak: true
   },
   {
     name: "White Villages Tours.",
@@ -67,7 +69,7 @@ export const myProjectsInfo = [
     previewLink: "https://suavek85.github.io/White-Village-Tours-Homepage/",
     readmeLink:
       "https://github.com/Suavek85/White-Village-Tours-Homepage/blob/master/README.md",
-      lineBreak: false,
+    lineBreak: false
   },
   {
     name: "Playgrounds.",
@@ -78,6 +80,6 @@ export const myProjectsInfo = [
     previewLink: "https://suavek85.github.io/Playgrounds-on-Costa-del-Sol/",
     readmeLink:
       "https://github.com/Suavek85/Playgrounds-on-Costa-del-Sol/blob/master/README.md",
-      lineBreak: false,
+    lineBreak: false
   }
 ];

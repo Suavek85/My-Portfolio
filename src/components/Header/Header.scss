@@ -1,10 +1,14 @@
+/* GENERAL */
+
 .about {
   height: 100vh;
   width: 100%;
   background: #00467f;
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(20, 30, 48, 0.9),
-      rgba(36, 59, 85, 0.9)),
+      rgba(36, 59, 85, 0.9)
+    ),
     url(../Images/about-img-gen.jpg);
   background-size: cover;
   background-position: top;
@@ -13,39 +17,73 @@
   flex-direction: column;
 }
 
+.about_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-desc {
   color: white;
-  font-size: 18px;
+  font-size: 1.2em;
+  font-weight: 500;
+  width: 500px;
+  text-align: center;
+  margin: auto;
 }
+
+.about-desc-para {
+  display: inline-block;
+  margin: 0 0 0.25em;
+  padding: 0.4em 1em;
+  background: rgba(255, 255, 255, 0.9);
+  color: #2f3238;
+}
+
+/* NAVIGATION */
 
 .nav {
-  padding: 20px;
+  padding: 1.4em;
   display: flex;
-  justify-content: space-between
-}
+  justify-content: space-between;
 
-.menu {
-  list-style: none;
-  display: flex;
-  align-content: flex-end;
-  justify-content: flex-end;
-  flex-wrap: wrap;
+  &__side {
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
 
   &__link {
     text-decoration: none;
     color: #ddd;
-    padding: 20px;
+    padding: 1em;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+    &:hover {
+      opacity: 1;
+    }
+
+    &::before {
+      transition: 300ms;
+      height: 2px;
+      content: "";
+      position: absolute;
+      background-color: white;
+    }
+  }
+  &__link-ltr::before {
+    width: 0%;
+    bottom: 5px;
   }
 
-  &__content {
-    color: #ccc;
-    max-width: 500px;
-    line-height: 2.5;
-    text-align: center;
-    justify-content: center;
-    align-self: center;
+  &__link-ltr:hover::before {
+    width: calc(100% - 2em);
   }
 }
+
+/* SKILLS */
 
 .skills {
   color: #f2f5f7;
@@ -68,16 +106,15 @@
     flex-wrap: wrap;
     padding: 20px 0;
     width: 500px;
-    transform: translateY(370px)
+    transform: translateY(370px);
   }
 }
-
 
 /* ANIME.JS H1 ANIMATION */
 
 .ml14 {
   font-weight: 900;
-  font-size: 3.2em;
+  font-size: 3.4em;
 }
 
 .ml14 .text-wrapper {
