@@ -95,22 +95,6 @@ class Header extends Component {
             <br />
             <p class="about-desc-para">Here's my portfolio.</p>
           </div>
-          {/*
-
-<div class="skills__icons">
-<i class="staggering fab fa-js" />
-<i class="staggering fab fa-react" />
-
-<i class="staggering fab fa-html5" />
-<i class="staggering fab fa-css3-alt" />
-<i class="staggering fab fa-sass" />
-<i class="staggering fab fa-github-square" />
-
-
-</div>
-
-
-          */}
           <div class="skills">
             <h2 class="skills__header">EXPERIENCE WITH</h2>
 
@@ -122,17 +106,16 @@ class Header extends Component {
               <i className="staggering devicon-javascript-plain" />
               <i className="staggering devicon-react-original-wordmark" />
               <i className="staggering devicon-github-plain-wordmark" />
-        
               <i className="staggering devicon-webpack-plain-wordmark" />
               <i className="staggering devicon-nodejs-plain-wordmark" />
               <i className="staggering devicon-express-original-wordmark" />
               <i className="staggering devicon-postgresql-plain-wordmark" />
               <i className="staggering devicon-wordpress-plain-wordmark" />
               <i className="staggering devicon-babel-plain" />
-              <i style={{ fontSize: "1.1rem", padding: "1.35rem .8rem" }}>
+              <i className="staggering" style={{ fontSize: "16px", padding: "1.35em .8em" }}>
                 NPM
               </i>
-              <i style={{ fontSize: "1.1rem", padding: "1.35rem .8rem" }}>
+              <i className="staggering" style={{ fontSize: "16px", padding: "1.35em .8em" }}>
                 Redux
               </i>
             </div>
