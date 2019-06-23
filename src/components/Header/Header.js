@@ -94,11 +94,9 @@ class Header extends Component {
           </h1>
 
           <div class="about-desc">
-            <p class="about-desc-para">
-              Coding the right thing & coding the thing right.
-            </p>
             <p class="about-desc-para">I enjoy coding, challenging myself,</p>
-            <p class="about-desc-para">and solving problems.</p>
+            <p class="about-desc-para">and solving coding problems.</p><br/>
+            <p class="about-desc-para">Here's my portfolio.</p>
           </div>
 
           <div class="skills">
