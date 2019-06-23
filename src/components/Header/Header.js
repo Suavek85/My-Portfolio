@@ -31,7 +31,7 @@ class Header extends Component {
     anime({
       targets: elements,
       translateY: -370,
-      delay: anime.stagger(250, { start: 1500 }),
+      delay: anime.stagger(350, { start: 2500 }),
       rotate: anime.stagger([360, 360])
     });
   }
@@ -44,39 +44,36 @@ class Header extends Component {
       <section id="aboutme" class="about">
         <nav class="nav">
           <ul class="nav__side">
-            <li style={{color: 'white', opacity: '0.6'}} >
-                SLAWOMIR NIEMIEC
-            </li>
+            <li style={{ color: "white", opacity: "0.6" }}>SLAWOMIR NIEMIEC</li>
           </ul>
           <ul class="nav__side">
-            <li >
+            <li>
               <a href="#aboutme" class="nav__link nav__link-ltr">
                 ABOUT
               </a>
             </li>
-            <li >
+            <li>
               <a href="#ownprojects" class="nav__link nav__link-ltr">
                 OWN PROJECTS
               </a>
             </li>
-            <li >
+            <li>
               <a href="#coursesprojects" class="nav__link nav__link-ltr">
                 COURSES PROJECTS
               </a>
             </li>
-            <li >
+            <li>
               <a href="#mycourses" class="nav__link nav__link-ltr">
                 COURSES
               </a>
             </li>
-            <li >
+            <li>
               <a href="#contactme" class="nav__link nav__link-ltr">
                 CONTACT
               </a>
             </li>
           </ul>
         </nav>
-
         <div class="about_wrapper">
           <h1 class="ml14 about__header">
             <span class="text-wrapper">
@@ -92,24 +89,52 @@ class Header extends Component {
               <span class="line" />
             </span>
           </h1>
-
           <div class="about-desc">
             <p class="about-desc-para">I enjoy coding, challenging myself,</p>
-            <p class="about-desc-para">and solving coding problems.</p><br/>
+            <p class="about-desc-para">and solving coding problems.</p>
+            <br />
             <p class="about-desc-para">Here's my portfolio.</p>
           </div>
+          {/*
 
+<div class="skills__icons">
+<i class="staggering fab fa-js" />
+<i class="staggering fab fa-react" />
+
+<i class="staggering fab fa-html5" />
+<i class="staggering fab fa-css3-alt" />
+<i class="staggering fab fa-sass" />
+<i class="staggering fab fa-github-square" />
+
+
+</div>
+
+
+          */}
           <div class="skills">
-            <h2 class="skills__header">SKILLS</h2>
-            <div class="skills__icons">
-              <i class="staggering fab fa-js" />
-              <i class="staggering fab fa-react" />
-            
-            
-              <i class="staggering fab fa-html5" />
-              <i class="staggering fab fa-css3-alt" />
-              <i class="staggering fab fa-sass" />
-              <i class="staggering fab fa-github-square" />
+            <h2 class="skills__header">EXPERIENCE WITH</h2>
+
+            <div class="skills__new-icons">
+              <i className="staggering devicon-html5-plain-wordmark" />
+              <i className="staggering devicon-css3-plain-wordmark" />
+              <i className="staggering devicon-sass-original" />
+              <i className="staggering devicon-bootstrap-plain" />
+              <i className="staggering devicon-javascript-plain" />
+              <i className="staggering devicon-react-original-wordmark" />
+              <i className="staggering devicon-github-plain-wordmark" />
+        
+              <i className="staggering devicon-webpack-plain-wordmark" />
+              <i className="staggering devicon-nodejs-plain-wordmark" />
+              <i className="staggering devicon-express-original-wordmark" />
+              <i className="staggering devicon-postgresql-plain-wordmark" />
+              <i className="staggering devicon-wordpress-plain-wordmark" />
+              <i className="staggering devicon-babel-plain" />
+              <i style={{ fontSize: "1.1rem", padding: "1.35rem .8rem" }}>
+                NPM
+              </i>
+              <i style={{ fontSize: "1.1rem", padding: "1.35rem .8rem" }}>
+                Redux
+              </i>
             </div>
           </div>
         </div>

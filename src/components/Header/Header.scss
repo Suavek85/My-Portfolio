@@ -93,7 +93,7 @@
   padding-top: 40px;
 
   &__header {
-    color: #0099cc;
+    color: white;
     text-align: center;
     padding-top: 20px;
     display: block;
@@ -107,6 +107,21 @@
     width: 500px;
     transform: translateY(370px);
   }
+  &__new-icons {
+    display: flex;
+    font-size: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    width: 500px;
+    transform: translateY(370px);
+  }
+
+}
+
+.staggering {
+  flex-basis: calc(100% / 7);
+  padding: 0px 0 20px 0;
 }
 
 /* ANIME.JS H1 ANIMATION */

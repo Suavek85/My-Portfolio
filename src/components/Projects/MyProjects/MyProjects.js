@@ -4,7 +4,7 @@ import { myProjectsInfo } from "./MyProjectsInfo";
 
 const MyProjects = () => (
   <section class="section-projects__flex">
-    <h1 id="ownprojects" class="ownprojects">
+    <h1 id="ownprojects" class="ownprojects" style={{color: '#FEA95E'}}>
       INDEPENDENT PROJECTS BASED ON MY OWN IDEAS:
     </h1>
 
