@@ -5,6 +5,7 @@ import Background4 from "../../Images/new-typing-game.PNG";
 import Background5 from "../../Images/new-white-villages.PNG";
 import Background6 from "../../Images/new-playgrounds.PNG";
 import Background7 from "../../Images/new-jigsaw.PNG";
+import Background8 from "../../Images/geo-app-basic.jpg";
 
 export const myProjectsInfo = [
   {
@@ -26,6 +27,17 @@ export const myProjectsInfo = [
     previewLink: "https://suavek85.github.io/Music-Song-App-with-Redux/",
     readmeLink:
       "https://github.com/Suavek85/Music-Song-App-with-Redux/blob/master/README.md",
+    lineBreak: false
+  },
+  {
+    name: "Geo App Basic",
+    subName: "Angular App on Firebase.",
+    desc:
+      "Angular, Material Design + Bing Maps API app. IN PROGRESS",
+    background: Background8,
+    previewLink: "https://geo-app-basic.firebaseapp.com/",
+    readmeLink:
+      "https://github.com/Suavek85/Geo-App-Basic",
     lineBreak: false
   },
   {
