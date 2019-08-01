@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e26ddf264e9d8de5fb4d794daf16e34e",
+    "revision": "d0741ba05c0c4f3c43259d975184cc94",
     "url": "/My-Portfolio/index.html"
   },
   {
-    "revision": "c919d4cf746ee22b90b5",
+    "revision": "765170c811386b1cd6ac",
     "url": "/My-Portfolio/static/css/3.925ed6e3.chunk.css"
   },
   {
-    "revision": "54cb243d999990140c8b",
+    "revision": "9dc6bc7def52230df392",
     "url": "/My-Portfolio/static/css/main.aade9e8f.chunk.css"
   },
   {
-    "revision": "c2f42e7a5b999f6f61e6",
-    "url": "/My-Portfolio/static/js/2.56db6929.chunk.js"
+    "revision": "975d3d36226bd200a338",
+    "url": "/My-Portfolio/static/js/2.1e670efb.chunk.js"
   },
   {
-    "revision": "c919d4cf746ee22b90b5",
-    "url": "/My-Portfolio/static/js/3.ab044490.chunk.js"
+    "revision": "765170c811386b1cd6ac",
+    "url": "/My-Portfolio/static/js/3.17b962eb.chunk.js"
   },
   {
-    "revision": "ec5c5b0cb5ded2b68cf2",
-    "url": "/My-Portfolio/static/js/4.5ba47ec0.chunk.js"
+    "revision": "ada70a9120081916fa4d",
+    "url": "/My-Portfolio/static/js/4.29319f28.chunk.js"
   },
   {
-    "revision": "54cb243d999990140c8b",
-    "url": "/My-Portfolio/static/js/main.c2e94d36.chunk.js"
+    "revision": "9dc6bc7def52230df392",
+    "url": "/My-Portfolio/static/js/main.ddba7f73.chunk.js"
   },
   {
-    "revision": "045112dfbf753923da5a",
-    "url": "/My-Portfolio/static/js/runtime~main.ed3149b8.js"
+    "revision": "a8cafb003007bcfbbe48",
+    "url": "/My-Portfolio/static/js/runtime~main.efa00a10.js"
   },
   {
     "revision": "01441d4f9f73145635b5bc7e53cb610f",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8795519bf6eaa2446f638dead3543827",
     "url": "/My-Portfolio/static/media/courses-img.8795519b.jpg"
+  },
+  {
+    "revision": "0d4574a6c1cb05033d2be7c205663f53",
+    "url": "/My-Portfolio/static/media/geo-app-basic.0d4574a6.jpg"
   },
   {
     "revision": "796145117515123da1ce11702c79a222",
