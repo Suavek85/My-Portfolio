@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.cd3401a7.chunk.css",
+    "main.css": "/My-Portfolio/static/css/main.cc60d5b3.chunk.css",
     "main.js": "/My-Portfolio/static/js/main.ddba7f73.chunk.js",
     "main.js.map": "/My-Portfolio/static/js/main.ddba7f73.chunk.js.map",
     "runtime~main.js": "/My-Portfolio/static/js/runtime~main.5b12b3e2.js",
@@ -13,10 +13,10 @@
     "static/js/4.29319f28.chunk.js": "/My-Portfolio/static/js/4.29319f28.chunk.js",
     "static/js/4.29319f28.chunk.js.map": "/My-Portfolio/static/js/4.29319f28.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "precache-manifest.7055283147a8e2d7bf7da6d049999ad7.js": "/My-Portfolio/precache-manifest.7055283147a8e2d7bf7da6d049999ad7.js",
+    "precache-manifest.7dbea3ea9fbff169b0ff4c78c4eddaa8.js": "/My-Portfolio/precache-manifest.7dbea3ea9fbff169b0ff4c78c4eddaa8.js",
     "service-worker.js": "/My-Portfolio/service-worker.js",
     "static/css/3.82954121.chunk.css.map": "/My-Portfolio/static/css/3.82954121.chunk.css.map",
-    "static/css/main.cd3401a7.chunk.css.map": "/My-Portfolio/static/css/main.cd3401a7.chunk.css.map",
+    "static/css/main.cc60d5b3.chunk.css.map": "/My-Portfolio/static/css/main.cc60d5b3.chunk.css.map",
     "static/media/Header.scss": "/My-Portfolio/static/media/about-img.01441d4f.jpg",
     "static/media/WebCourses.scss": "/My-Portfolio/static/media/courses-img.8795519b.jpg",
     "static/media/geo-app-basic.jpg": "/My-Portfolio/static/media/geo-app-basic.0d4574a6.jpg",
