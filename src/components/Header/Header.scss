@@ -1,7 +1,6 @@
 /* GENERAL */
 
 .about {
-  height: 100vh;
   width: 100vw;
   background: #00467f;
   background-image: linear-gradient(
@@ -148,9 +147,7 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 640px) {
-  .about {
-    height: 160vh;
-  }
+ 
   .about-desc {
     width: 100%; 
   }
