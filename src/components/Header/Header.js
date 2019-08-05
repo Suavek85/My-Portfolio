@@ -43,36 +43,26 @@ class Header extends Component {
     return (
       <section id="aboutme" class="about">
         <nav class="nav">
-          <ul class="nav__side">
-            <li style={{ color: "white", opacity: "0.6" }}>SLAWOMIR NIEMIEC</li>
-          </ul>
-          <ul class="nav__side">
-            <li>
+          <div class="nav__side">
+            <div style={{ color: "white", opacity: "0.6" }}>SLAWOMIR NIEMIEC</div>
+          </div>
+          <div class="nav__side">
               <a href="#aboutme" class="nav__link nav__link-ltr">
                 ABOUT
               </a>
-            </li>
-            <li>
               <a href="#ownprojects" class="nav__link nav__link-ltr">
                 OWN PROJECTS
               </a>
-            </li>
-            <li>
               <a href="#coursesprojects" class="nav__link nav__link-ltr">
                 COURSES PROJECTS
               </a>
-            </li>
-            <li>
               <a href="#mycourses" class="nav__link nav__link-ltr">
                 COURSES
               </a>
-            </li>
-            <li>
               <a href="#contactme" class="nav__link nav__link-ltr">
                 CONTACT
               </a>
-            </li>
-          </ul>
+          </div>
         </nav>
         <div class="about_wrapper">
           <h1 class="ml14 about__header">
@@ -97,7 +87,6 @@ class Header extends Component {
           </div>
           <div class="skills">
             <h2 class="skills__header">EXPERIENCE WITH</h2>
-
             <div class="skills__new-icons">
               <i className="staggering devicon-html5-plain-wordmark" />
               <i className="staggering devicon-css3-plain-wordmark" />

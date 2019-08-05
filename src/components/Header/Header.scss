@@ -20,13 +20,14 @@
 .about_wrapper {
   display: flex;
   flex-direction: column;
+  width: inherit;
 }
 
 .about-desc {
   color: white;
   font-size: 1.2em;
   font-weight: 500;
-  width: 500px; 
+  width: 400px; 
   text-align: center;
   margin: auto;
 }
@@ -43,10 +44,9 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   &__side {
-    list-style: none;
     display: flex;
     align-content: center;
     justify-content: flex-end;
@@ -103,7 +103,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px 20px;
-    width: 600px;
+    width: 700px;
     transform: translateY(370px);
   }
 
