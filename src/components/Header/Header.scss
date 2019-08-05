@@ -2,7 +2,7 @@
 
 .about {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background: #00467f;
   background-image: linear-gradient(
       to right,
@@ -11,7 +11,7 @@
     ),
     url(../Images/about-img.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@
   color: white;
   font-size: 1.2em;
   font-weight: 500;
-  width: 500px;
+  width: 500px; 
   text-align: center;
   margin: auto;
 }
@@ -147,31 +147,51 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
+  .about {
+    height: 160vh;
+  }
+  .about-desc {
+    width: 100%; 
+  }
   .about__header {
     padding: 10px;
     line-height: 2;
+    font-size: 1rem;
   }
-
   .about__content {
     line-height: 2;
   }
-
   .skills__header {
     margin: auto;
     padding-top: 5px;
   }
-
   .nav {
     padding: 5px;
+    flex-direction: column;
+    &__side {
+     flex-direction: column;
+    }
+  }  
+  .letters {
+    font-size: 2rem;
   }
 
-  .skills__icons {
-    width: 300px;
+  .skills {
+    margin-top: 50px;
+    &__new-icons {
+      font-size: 40px;
+      padding: 20px 20px;
+      width: 100%
+    }
+  }
+  .staggering {
+    flex-basis: calc(100% / 6);
+    padding: 0px 0 20px 0;
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 500px) {
+@media screen and (max-width: 1200px) and (min-width: 640px) {
   .menu {
     justify-content: space-evenly;
   }
