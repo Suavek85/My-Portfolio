@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 const Header = lazy(() => import("./components/Header/Header"));
 
 class App extends Component {
+  
   render() {
     return (
       <div className="App">

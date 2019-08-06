@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import "./Header.scss";
 import anime from "animejs/lib/anime.es.js";
+import Nav from "../Navigation/Navigation";
 
 class Header extends Component {
+  state = {
+    mobile: false,
+    hamburger: false
+  };
+
   componentDidMount() {
     anime
       .timeline({ loop: false })
@@ -34,7 +40,27 @@ class Header extends Component {
       delay: anime.stagger(350, { start: 2500 }),
       rotate: anime.stagger([360, 360])
     });
+
+    let width = window.innerWidth;
+    console.log(this.state.hamburger);
+    if (width > 640) {
+      this.setState({
+        mobile: false
+      });
+    } else {
+      this.setState({
+        mobile: true
+      });
+    }
   }
+
+  onMobileButtonClick = () => {
+    console.log(this.state.hamburger)
+    this.setState({
+      hamburger: !this.state.hamburger
+    });
+    
+  };
 
   render() {
     const descLettersString = `Hello, I am Suavek`;
@@ -42,28 +68,12 @@ class Header extends Component {
 
     return (
       <section id="aboutme" class="about">
-        <nav class="nav">
-          <div class="nav__side">
-            <div style={{ color: "white", opacity: "0.6" }}>SLAWOMIR NIEMIEC</div>
-          </div>
-          <div class="nav__side">
-              <a href="#aboutme" class="nav__link nav__link-ltr">
-                ABOUT
-              </a>
-              <a href="#ownprojects" class="nav__link nav__link-ltr">
-                OWN PROJECTS
-              </a>
-              <a href="#coursesprojects" class="nav__link nav__link-ltr">
-                COURSES PROJECTS
-              </a>
-              <a href="#mycourses" class="nav__link nav__link-ltr">
-                COURSES
-              </a>
-              <a href="#contactme" class="nav__link nav__link-ltr">
-                CONTACT
-              </a>
-          </div>
-        </nav>
+        <button onClick={this.onMobileButtonClick} />
+        <Nav
+          mobile={this.state.mobile}
+          onMobileButtonClick={this.onMobileButtonClick}
+          hamburger={this.state.hamburger}
+        />
         <div class="about_wrapper">
           <h1 class="ml14 about__header">
             <span class="text-wrapper">
@@ -101,10 +111,16 @@ class Header extends Component {
               <i className="staggering devicon-postgresql-plain-wordmark" />
               <i className="staggering devicon-wordpress-plain-wordmark" />
               <i className="staggering devicon-babel-plain" />
-              <i className="staggering" style={{ fontSize: "16px", padding: "1.35em .8em" }}>
+              <i
+                className="staggering"
+                style={{ fontSize: "16px", padding: "1.35em .8em" }}
+              >
                 NPM
               </i>
-              <i className="staggering" style={{ fontSize: "16px", padding: "1.35em .8em" }}>
+              <i
+                className="staggering"
+                style={{ fontSize: "16px", padding: "1.35em .8em" }}
+              >
                 Redux
               </i>
             </div>
