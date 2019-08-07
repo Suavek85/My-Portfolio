@@ -106,6 +106,7 @@ class Header extends Component {
               <i className="staggering devicon-bootstrap-plain" />
               <i className="staggering devicon-javascript-plain" />
               <i className="staggering devicon-react-original-wordmark" />
+              <i className="staggering devicon-angularjs-plain"/>
               <i className="staggering devicon-github-plain-wordmark" />
               <i className="staggering devicon-webpack-plain-wordmark" />
               <i className="staggering devicon-nodejs-plain-wordmark" />

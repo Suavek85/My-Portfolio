@@ -10,8 +10,8 @@ const MobileButton = props => {
           position: "absolute",
           top: "0",
           left: "0",
-          marginLeft: "15px",
-          marginTop: "15px"
+          marginLeft: "5px",
+          marginTop: "5px"
         }}
         className={props.hamburger ? "hamburger--active" : null}
         onClick={props.onMobileButtonClick}
