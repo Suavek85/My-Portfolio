@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 350px;
+    height: auto;
     background-color: #fff;
     margin: 20px;
     padding: 20px;
@@ -85,7 +85,7 @@
     flex-basis: 50%;
     background-color: #dddddd;
     height: 35px;
-    padding: 0 15 0 15;
+    padding: 0 15px 0 15px;
     color: #3b444b;
     background-color: white;
     border: 1px solid #3b444b;
@@ -98,5 +98,13 @@
   .button-course-1:hover {
     background-color: #414a4c;
     color: white;
+  }
+
+  //MEDIA QUERIES
+
+  @media screen and (max-width: 380px) {
+    .button-course-1 {
+      padding: 0 45px 0 45px;
+    }
   }
   

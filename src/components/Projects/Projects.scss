@@ -12,7 +12,7 @@
   position: relative;
   background: #333;
   width: 400px;
-  height: 500px;
+  height: auto;
   border-radius: 2%;
   padding: 2rem;
   color: #aaa;
@@ -161,20 +161,14 @@
   }
 }
 
-.ownprojects {
-  font-size: 30px;
+h1 {
+  font-size: 1.6rem;
 }
 
 // MEDIA QUERIES
 
 @media screen and (max-width: 640px) {
-  .card {
-    height: 550px;
-    width: 100%;
-    &__title {
-      margin-top:-35px;
-    }
-  }
+  
   .project {
     &__btns {
       flex-wrap: wrap;
@@ -190,4 +184,24 @@
       margin-bottom: 20px;
     }
   }
+  h1 {
+    font-size: 1.4rem;
+  }
 }
+
+@media screen and (max-width: 380px) {
+  .card {
+    &__title {
+      margin-top:-35px;
+    }
+  }
+  .project {
+    &__btn {
+      padding: 0 90px 0 90px;
+    }
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+

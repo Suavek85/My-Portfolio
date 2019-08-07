@@ -5,7 +5,7 @@ import "./Navigation.scss";
 
 const Nav = props => {
   return (
-    <nav className="nav">
+    <nav>
       {props.mobile ? <MobileButton mobile={props.mobile} hamburger={props.hamburger} onMobileButtonClick={props.onMobileButtonClick} /> : <NavList />}
     </nav>
   );

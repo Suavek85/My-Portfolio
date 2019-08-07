@@ -1,24 +1,23 @@
 /* NAVIGATION */
 
 .nav {
-  display: flex;
-  justify-content: space-around;
-
+  
   &__side {
     display: flex;
     align-content: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
   &__side--hidden {
     display: none;
     align-content: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex-wrap: wrap;
   }
 
   &__link {
+    width: fit-content;
     text-decoration: none;
     color: #ddd;
     padding: 1em;
@@ -80,6 +79,7 @@
   position: relative;
   width: 35px;
   height: 30px;
+  padding: 5px;
 }
 
 .hamburger__bars {
@@ -125,37 +125,41 @@
 
 .hamburger,
 .hamburger__container {
+  cursor: pointer;
   &:focus {
     outline: none;
   }
 }
 
-.test {
+.menu__closed {
   position: relative;
-    width: 100%;
+  width: 100%;
   height: 50px;
   background-color: transparent;
   overflow: hidden;
 }
 
-.test-2 {
+.menu__opened {
     position: relative;
     width: 100%;
     height: 300px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg,#243b55,#141e30);
     overflow: hidden;
-    animation-name: slidemenu;
+    animation-name: slidemenuin;
     animation-timing-function: ease-in;
-    animation-duration: .5s;
+    animation-duration: .6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
 
-  @keyframes slidemenu {
+  @keyframes slidemenuin {
     0% {
         height: 0px;
+        opacity: 0;
     }
     100% {
         height: 300px;
+        opacity: 1;
     }
 }
+

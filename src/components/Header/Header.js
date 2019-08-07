@@ -41,34 +41,35 @@ class Header extends Component {
       rotate: anime.stagger([360, 360])
     });
 
-    let width = window.innerWidth;
-    console.log(this.state.hamburger);
-    if (width > 640) {
-      this.setState({
-        mobile: false
-      });
-    } else {
-      this.setState({
-        mobile: true
-      });
-    }
+    const onWindowResize = () => {
+      let width = window.innerWidth;
+      if (width > 640) {
+        this.setState({
+          mobile: false
+        });
+      } else {
+        this.setState({
+          mobile: true
+        });
+      }
+    };
+    onWindowResize();
+    window.onresize = onWindowResize;
   }
 
   onMobileButtonClick = () => {
-    console.log(this.state.hamburger)
+    console.log(this.state.hamburger);
     this.setState({
       hamburger: !this.state.hamburger
     });
-    
   };
 
   render() {
-    const descLettersString = `Hello, I am Suavek`;
+    const descLettersString = `Hello, I am Slawek`;
     const splitString = descLettersString.split("");
 
     return (
       <section id="aboutme" class="about">
-        <button onClick={this.onMobileButtonClick} />
         <Nav
           mobile={this.state.mobile}
           onMobileButtonClick={this.onMobileButtonClick}
@@ -90,6 +91,7 @@ class Header extends Component {
             </span>
           </h1>
           <div class="about-desc">
+            
             <p class="about-desc-para">I enjoy coding, challenging myself,</p>
             <p class="about-desc-para">and solving coding problems.</p>
             <br />

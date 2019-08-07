@@ -39,48 +39,6 @@
   color: #2f3238;
 }
 
-/* NAVIGATION */
-
-.nav {
-  display: flex;
-  justify-content: space-around;
-
-  &__side {
-    display: flex;
-    align-content: center;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-  }
-
-  &__link {
-    text-decoration: none;
-    color: #ddd;
-    padding: 1em;
-    display: inline-block;
-    position: relative;
-    opacity: 0.75;
-    &:hover {
-      opacity: 1;
-    }
-
-    &::before {
-      transition: 300ms;
-      height: 2px;
-      content: "";
-      position: absolute;
-      background-color: white;
-    }
-  }
-  &__link-ltr::before {
-    width: 0%;
-    bottom: 5px;
-  }
-
-  &__link-ltr:hover::before {
-    width: calc(100% - 2em);
-  }
-}
-
 /* SKILLS */
 
 .skills {
@@ -94,15 +52,17 @@
     color: white;
     text-align: center;
     padding-top: 20px;
+    margin-top: 30px;
     display: block;
   }
   &__new-icons {
     display: flex;
     font-size: 50px;
+    width: 700px;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px 20px;
-    width: 700px;
+    margin-top: 30px;
     transform: translateY(370px);
   }
 
@@ -163,13 +123,7 @@
     margin: auto;
     padding-top: 5px;
   }
-  .nav {
-    padding: 5px;
-    flex-direction: column;
-    &__side {
-     flex-direction: column;
-    }
-  }  
+  
   .letters {
     font-size: 2rem;
   }
@@ -179,7 +133,7 @@
     &__new-icons {
       font-size: 40px;
       padding: 20px 20px;
-      width: 100%
+      width: 100%;
     }
   }
   .staggering {
@@ -188,8 +142,4 @@
   }
 }
 
-@media screen and (max-width: 1200px) and (min-width: 640px) {
-  .menu {
-    justify-content: space-evenly;
-  }
-}
+
