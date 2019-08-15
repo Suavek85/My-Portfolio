@@ -50,7 +50,7 @@ h1 {
     margin: -2rem -2rem 1rem -2rem;
     height: 250px;
     border-radius: 2%;
-    width: 400px; //added
+    width: inherit; //added
   }
 
   &__line {
@@ -61,7 +61,7 @@ h1 {
   &__image {
     opacity: 0;
     animation: ImageFadeIn 0.8s 1.4s forwards;
-    width: 400px; //added
+    width: inherit; //added
   }
 
   &__title {
@@ -84,7 +84,7 @@ h1 {
     position: absolute;
     left: 0;
     top: 65px;
-    width: 400px; //added
+    width: inherit; //added
   }
 }
 
@@ -201,8 +201,9 @@ h1 {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
   .card {
+    width: 300px;
     &__title {
       margin-top:-35px;
     }

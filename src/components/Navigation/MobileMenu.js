@@ -8,8 +8,8 @@ const MobileButton = props => {
       <div
         style={{
           position: "absolute",
-          top: "0",
-          left: "0",
+          top: "4px",
+          left: "4px",
           marginLeft: "5px",
           marginTop: "5px"
         }}

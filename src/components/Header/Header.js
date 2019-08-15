@@ -89,25 +89,33 @@ class Header extends Component {
               <span class="line" />
             </span>
           </h1>
-          <audio
-            id="myName"
-            src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pl-S%C5%82awek.ogg"
-          />
-          <div class="about-desc">
-            <p class="about-desc-para">
+          <audio id="myName">
+            <source src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pl-S%C5%82awek.ogg" />
+          </audio>
+          <div className="about-desc">
+            <p className="about-desc-para">
               I am Slawek - /ˈswa.vɛk/
               <span>
                 <i
                   onClick={() => document.getElementById("myName").play()}
-                  style={{ color: "orange", cursor: "pointer", paddingLeft: "10px" }}
-                  class="fas fa-play "
+                  style={{
+                    color: "orange",
+                    cursor: "pointer",
+                    paddingLeft: "10px"
+                  }}
+                  class="fas fa-volume-up"
                 />
               </span>
             </p>
-            <p class="about-desc-para">I enjoy coding, challenging myself,</p>
-            <p class="about-desc-para">and solving coding problems.</p>
-            <br />
-            <p class="about-desc-para">Here's my portfolio.</p>
+            <p className="about-desc-para">
+              I enjoy coding,{this.state.mobile ? <br /> : null} challenging
+              myself
+            </p>
+            <p className="about-desc-para">
+              and solving {this.state.mobile ? <br /> : null}coding problems.
+            </p>
+
+            <p className="about-desc-para">Here's my portfolio.</p>
           </div>
           <div class="skills">
             <h2 class="skills__header">EXPERIENCE WITH</h2>
