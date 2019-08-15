@@ -4,18 +4,18 @@ import { myProjectsInfo } from "./MyProjectsInfo";
 
 const MyProjects = () => (
   <section class="section-projects__flex">
-    <h1 id="ownprojects" class="ownprojects" style={{color: '#FEA95E'}}>
+    <h1 id="ownprojects" className="ownprojects">
       INDEPENDENT PROJECTS BASED ON MY OWN IDEAS:
     </h1>
 
     {myProjectsInfo.map(el => {
       return (
         <>
-          <div class="container">
-            <div class="card">
-              <div class="card__image-container">
+          <div className="container">
+            <div className="card">
+              <div className="card__image-container">
                 <img
-                  class="card__image"
+                  className="card__image"
                   src={el.background}
                   alt="App Background"
                 />
@@ -28,23 +28,23 @@ const MyProjects = () => (
                   fill="#333"
                 />
                 <path
-                  class="card__line"
+                  className="card__line"
                   d="M 0 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 800 400"
                   stroke="pink"
-                  stroke-width="3"
+                  strokeWidth="3"
                   fill="transparent"
                 />
               </svg>
 
-              <div class="card__content card__content--margin">
-                <h1 class="card__title">
+              <div className="card__content card__content--margin">
+                <h1 className="card__title">
                   {el.name}
                   <br />
                   {el.subName}
                 </h1>
                 <p>{el.desc}</p>
 
-                <div class="project__btns">
+                <div className="project__btns">
                   <a
                     href={el.previewLink}
                     target="_blank"

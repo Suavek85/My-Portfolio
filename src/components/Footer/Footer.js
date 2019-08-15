@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <section id="contactme" class="contact">
       <h1>CONTACT</h1>
+      <h2>Slawomir Niemiec</h2>
 
       <a href="mailto:slawekniemiec@gmail.com" class="contact__icon">
         <i class="fas fa-envelope-square" />

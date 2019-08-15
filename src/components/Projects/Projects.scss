@@ -1,3 +1,28 @@
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 1.6rem;
+  color: #FEA95E;
+}
+
+/* SECTION WRAPPER */
+
+.section-projects {
+  &__flex {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+  }
+  &__flex h1 {
+    width: 100%;
+  }
+}
+
+/* CARD WRAPPER */
 
 .container {
   display: flex;
@@ -8,11 +33,13 @@
   border-radius: 2%;
 }
 
+/* CARD */
+
 .card {
   position: relative;
-  background: #333;
   width: 400px;
   height: auto;
+  background: #333;
   border-radius: 2%;
   padding: 2rem;
   color: #aaa;
@@ -23,6 +50,7 @@
     margin: -2rem -2rem 1rem -2rem;
     height: 250px;
     border-radius: 2%;
+    width: 400px; //added
   }
 
   &__line {
@@ -33,6 +61,7 @@
   &__image {
     opacity: 0;
     animation: ImageFadeIn 0.8s 1.4s forwards;
+    width: 400px; //added
   }
 
   &__title {
@@ -55,8 +84,11 @@
     position: absolute;
     left: 0;
     top: 65px;
+    width: 400px; //added
   }
 }
+
+/* CARD ANIMATIONS */
 
 @keyframes LineFadeIn {
   0% {
@@ -115,22 +147,6 @@
   }
 }
 
-/* SECTION WRAPPER */
-
-.section-projects {
-  &__flex {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
-  }
-  &__flex h1 {
-    width: 100%;
-  }
-}
 
 /* BUTTONS */
 
@@ -159,10 +175,6 @@
   &__btn:hover {
     background-color: #FEA95E;
   }
-}
-
-h1 {
-  font-size: 1.6rem;
 }
 
 // MEDIA QUERIES

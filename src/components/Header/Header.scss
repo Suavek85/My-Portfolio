@@ -24,7 +24,7 @@
 
 .about-desc {
   color: white;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 500;
   width: 400px; 
   text-align: center;
@@ -77,7 +77,7 @@
 
 .ml14 {
   font-weight: 900;
-  font-size: 3.4em;
+  font-size: 4rem;
 }
 
 .ml14 .text-wrapper {
@@ -114,7 +114,9 @@
   .about__header {
     padding: 10px;
     line-height: 2;
-    font-size: 1rem;
+  }
+  .ml14 {
+    font-size: 3rem;
   }
   .about__content {
     line-height: 2;
@@ -123,10 +125,7 @@
     margin: auto;
     padding-top: 5px;
   }
-  .letters {
-    font-size: 2rem;
-  }
-
+  
   .skills {
     margin-top: 50px;
     &__new-icons {

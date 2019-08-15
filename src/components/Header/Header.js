@@ -58,14 +58,13 @@ class Header extends Component {
   }
 
   onMobileButtonClick = () => {
-    console.log(this.state.hamburger);
     this.setState({
       hamburger: !this.state.hamburger
     });
   };
 
   render() {
-    const descLettersString = `Hello, I am Slawek`;
+    const descLettersString = `Hello!`;
     const splitString = descLettersString.split("");
 
     return (
@@ -90,8 +89,21 @@ class Header extends Component {
               <span class="line" />
             </span>
           </h1>
+          <audio
+            id="myName"
+            src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pl-S%C5%82awek.ogg"
+          />
           <div class="about-desc">
-            
+            <p class="about-desc-para">
+              I am Slawek - /ˈswa.vɛk/
+              <span>
+                <i
+                  onClick={() => document.getElementById("myName").play()}
+                  style={{ color: "orange", cursor: "pointer", paddingLeft: "10px" }}
+                  class="fas fa-play "
+                />
+              </span>
+            </p>
             <p class="about-desc-para">I enjoy coding, challenging myself,</p>
             <p class="about-desc-para">and solving coding problems.</p>
             <br />
@@ -106,7 +118,7 @@ class Header extends Component {
               <i className="staggering devicon-bootstrap-plain" />
               <i className="staggering devicon-javascript-plain" />
               <i className="staggering devicon-react-original-wordmark" />
-              <i className="staggering devicon-angularjs-plain"/>
+              <i className="staggering devicon-angularjs-plain" />
               <i className="staggering devicon-github-plain-wordmark" />
               <i className="staggering devicon-webpack-plain-wordmark" />
               <i className="staggering devicon-nodejs-plain-wordmark" />
