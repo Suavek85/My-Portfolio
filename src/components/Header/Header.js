@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactTooltip from 'react-tooltip';
 import "./Header.scss";
 import anime from "animejs/lib/anime.es.js";
 import Nav from "../Navigation/Navigation";
@@ -90,21 +91,31 @@ class Header extends Component {
             </span>
           </h1>
           <audio id="myName">
-            <source src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pl-S%C5%82awek.ogg" />
+            <source src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pl-S%C5%82awek.ogg"/>
+            <source src="https://od.lk/s/MjlfMTMxMTE3MjJf/Slawek2.mp3" />
           </audio>
           <div className="about-desc">
             <p className="about-desc-para">
-              I am Slawek - /ˈswa.vɛk/
+              I am Slawek
               <span>
+
                 <i
                   onClick={() => document.getElementById("myName").play()}
                   style={{
                     color: "orange",
                     cursor: "pointer",
-                    paddingLeft: "10px"
+                    paddingLeft: "5px"
                   }}
                   class="fas fa-volume-up"
+                  data-tip 
+                  data-for='pronunciation'
+                  
                 />
+                <ReactTooltip id='pronunciation' type='info' place='top'>
+                  <span className="about-desc-tooltip">/ˈswa.vɛk/</span>
+                </ReactTooltip>
+
+
               </span>
             </p>
             <p className="about-desc-para">
