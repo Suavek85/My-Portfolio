@@ -3,23 +3,21 @@
 .about {
   width: 100vw;
   background: #00467f;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(20, 30, 48, 0.9),
-      rgba(36, 59, 85, 0.9)
-    ),
+      rgba(36, 59, 85, 0.9)),
     url(../Images/about-img.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
-}
 
-.about_wrapper {
-  display: flex;
-  flex-direction: column;
-  width: inherit;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+  }
 }
 
 .about-desc {
@@ -29,25 +27,26 @@
   color: white;
   font-size: 1.4em;
   font-weight: 500;
-  width: 400px; 
+  width: 400px;
   text-align: center;
   margin: auto;
+
+  &__para {
+    display: inline-block;
+    width: fit-content;
+    margin: 0 0 0.25em;
+    padding: 0.4em 1em;
+    background: rgba(255, 255, 255, 0.9);
+    color: #2f3238;
+  }
+
+  &__tooltip {
+    font-size: 1.6em;
+    font-weight: 500;
+    color: white;
+  }
 }
 
-.about-desc-para {
-  display: inline-block;
-  width: fit-content;
-  margin: 0 0 0.25em;
-  padding: 0.4em 1em;
-  background: rgba(255, 255, 255, 0.9);
-  color: #2f3238;
-}
-
-.about-desc-tooltip {
-  font-size: 1.6em;
-  font-weight: 500;
-  color: white;
-}
 
 /* SKILLS */
 
@@ -65,6 +64,7 @@
     margin-top: 30px;
     display: block;
   }
+
   &__new-icons {
     display: flex;
     font-size: 50px;
@@ -114,40 +114,52 @@
   line-height: 1em;
 }
 
+/* VOLUME ICON */
+
+.volume-icon {
+  color: orange;
+  cursor: pointer;
+  padding-left: 5px
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 640px) {
- 
+
   .about-desc {
-    width: 100%; 
+    width: 100%;
   }
+
   .about__header {
     padding: 10px;
     line-height: 2;
   }
+
   .ml14 {
     font-size: 3rem;
   }
+
   .about__content {
     line-height: 2;
   }
+
   .skills__header {
     margin: auto;
     padding-top: 5px;
   }
-  
+
   .skills {
     margin-top: 50px;
+
     &__new-icons {
       font-size: 40px;
       padding: 20px 20px;
       width: 100%;
     }
   }
+
   .staggering {
     flex-basis: calc(100% / 6);
     padding: 0px 0 20px 0;
   }
 }
-
-

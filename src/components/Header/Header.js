@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import ReactTooltip from 'react-tooltip';
-import "./Header.scss";
+import { SkillsListData, renderSkills } from './SkillsListData';
 import anime from "animejs/lib/anime.es.js";
 import Nav from "../Navigation/Navigation";
+import "./Header.scss";
 
 class Header extends Component {
   state = {
@@ -75,7 +76,7 @@ class Header extends Component {
           onMobileButtonClick={this.onMobileButtonClick}
           hamburger={this.state.hamburger}
         />
-        <div class="about_wrapper">
+        <div class="about__wrapper">
           <h1 class="ml14 about__header">
             <span class="text-wrapper">
               <span class="letters">
@@ -95,68 +96,34 @@ class Header extends Component {
             <source src="https://od.lk/s/MjlfMTMxMTE3MjJf/Slawek2.mp3" />
           </audio>
           <div className="about-desc">
-            <p className="about-desc-para">
+            <p className="about-desc__para">
               I am Slawek
               <span>
-
                 <i
                   onClick={() => document.getElementById("myName").play()}
-                  style={{
-                    color: "orange",
-                    cursor: "pointer",
-                    paddingLeft: "5px"
-                  }}
-                  class="fas fa-volume-up"
+                  className="fas fa-volume-up volume-icon"
                   data-tip 
                   data-for='pronunciation'
-                  
                 />
                 <ReactTooltip id='pronunciation' type='info' place='top'>
-                  <span className="about-desc-tooltip">/ˈswa.vɛk/</span>
+                  <span className="about-desc__tooltip">/ˈswa.vɛk/</span>
                 </ReactTooltip>
-
-
               </span>
             </p>
-            <p className="about-desc-para">
+            <p className="about-desc__para">
               I enjoy coding,{this.state.mobile ? <br /> : null} challenging
               myself
             </p>
-            <p className="about-desc-para">
+            <p className="about-desc__para">
               and solving {this.state.mobile ? <br /> : null}coding problems.
             </p>
 
-            <p className="about-desc-para">Here's my portfolio.</p>
+            <p className="about-desc__para">Here's my portfolio.</p>
           </div>
           <div class="skills">
             <h2 class="skills__header">EXPERIENCE WITH</h2>
             <div class="skills__new-icons">
-              <i className="staggering devicon-html5-plain-wordmark" />
-              <i className="staggering devicon-css3-plain-wordmark" />
-              <i className="staggering devicon-sass-original" />
-              <i className="staggering devicon-bootstrap-plain" />
-              <i className="staggering devicon-javascript-plain" />
-              <i className="staggering devicon-react-original-wordmark" />
-              <i className="staggering devicon-angularjs-plain" />
-              <i className="staggering devicon-github-plain-wordmark" />
-              <i className="staggering devicon-webpack-plain-wordmark" />
-              <i className="staggering devicon-nodejs-plain-wordmark" />
-              <i className="staggering devicon-express-original-wordmark" />
-              <i className="staggering devicon-postgresql-plain-wordmark" />
-              <i className="staggering devicon-wordpress-plain-wordmark" />
-              <i className="staggering devicon-babel-plain" />
-              <i
-                className="staggering"
-                style={{ fontSize: "16px", padding: "1.35em .8em" }}
-              >
-                NPM
-              </i>
-              <i
-                className="staggering"
-                style={{ fontSize: "16px", padding: "1.35em .8em" }}
-              >
-                Redux
-              </i>
+              {SkillsListData.map(renderSkills)}
             </div>
           </div>
         </div>
