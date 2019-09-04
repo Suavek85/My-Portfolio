@@ -1,6 +1,7 @@
 import React from "react";
+import "./Header.scss";
 
-export const SkillsListData = [
+const SkillsListData = [
   { name: null, classNames: "devicon-html5-plain-wordmark", style: null },
   { name: null, classNames: "devicon-css3-plain-wordmark", style: null },
   { name: null, classNames: "devicon-sass-original", style: null },
@@ -29,10 +30,21 @@ export const SkillsListData = [
 
 const staggering = "staggering";
 
-export const renderSkills = el => {
+const renderSkills = el => {
   return (
     <i className={el.classNames + " " + staggering} style={el.style}>
       {el.name}
     </i>
   );
 };
+
+const Icons = () => {
+  return (
+    <div class="skills">
+      <h2 class="skills__header">EXPERIENCE WITH</h2>
+      <div class="skills__new-icons">{SkillsListData.map(renderSkills)}</div>
+    </div>
+  );
+};
+
+export default Icons

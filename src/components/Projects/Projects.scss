@@ -17,6 +17,7 @@ h1 {
     align-items: center;
     padding: 20px;
   }
+
   &__flex h1 {
     width: 100%;
   }
@@ -45,6 +46,7 @@ h1 {
   color: #aaa;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   overflow: hidden;
+  
 
   &__image-container {
     margin: -2rem -2rem 1rem -2rem;
@@ -52,6 +54,7 @@ h1 {
     border-radius: 2%;
     width: inherit; //added
   }
+
 
   &__line {
     opacity: 0;
@@ -69,12 +72,20 @@ h1 {
     margin-top: 0;
     font-weight: 800;
     letter-spacing: 0.01em;
+    font-size: 1.4rem !important;
+
+    &::first-line  {
+      letter-spacing: 0.04em;
+      font-size: 1.6rem !important;
+    }
   }
+
 
   &__content {
     margin-top: -1rem;
     opacity: 0;
     animation: ContentFadeIn 0.8s 1.6s forwards;
+
     &--margin {
       margin-top: -1rem;
     }
@@ -93,25 +104,22 @@ h1 {
 @keyframes LineFadeIn {
   0% {
     opacity: 0;
-    d: path(
-      "M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 "
-    );
+    d: path("M 0 300 Q 0 300 0 300 Q 0 300 0 300 C 0 300 0 300 0 300 Q 0 300 0 300 "
+      );
     stroke: #fff;
   }
 
   50% {
     opacity: 1;
-    d: path(
-      "M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300"
-    );
+    d: path("M 0 300 Q 50 300 100 300 Q 250 300 350 300 C 350 300 500 300 650 300 Q 750 300 800 300"
+      );
     stroke: #888bff;
   }
 
   100% {
     opacity: 1;
-    d: path(
-      "M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400"
-    );
+    d: path("M -2 100 Q 50 200 100 250 Q 250 400 350 300 C 400 250 550 150 650 300 Q 750 450 802 400"
+      );
     stroke: #545581;
   }
 }
@@ -180,22 +188,25 @@ h1 {
 // MEDIA QUERIES
 
 @media screen and (max-width: 640px) {
-  
+
   .project {
     &__btns {
       flex-wrap: wrap;
       flex-direction: row;
     }
+
     &__btn {
       flex-basis: 100%;
       height: 45px;
       padding: 0 70px 0 70px;
       color: #3b444b;
     }
+
     &__btn:first-child {
       margin-bottom: 20px;
     }
   }
+
   h1 {
     font-size: 1.4rem;
   }
@@ -204,17 +215,19 @@ h1 {
 @media screen and (max-width: 420px) {
   .card {
     width: 300px;
+
     &__title {
-      margin-top:-35px;
+      margin-top: -35px;
     }
   }
+
   .project {
     &__btn {
       padding: 0 90px 0 90px;
     }
   }
+
   h1 {
     font-size: 1.3rem;
   }
 }
-

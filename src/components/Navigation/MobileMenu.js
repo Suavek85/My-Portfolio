@@ -21,7 +21,7 @@ const MobileButton = props => {
           <span class="hamburger__bars" />
         </span>
       </div>
-      <NavList mobile={props.mobile} hamburger={props.hamburger} />
+      <NavList onMobileLinkClick={props.onMobileLinkClick} mobile={props.mobile} hamburger={props.hamburger} />
     </div>
   );
 };

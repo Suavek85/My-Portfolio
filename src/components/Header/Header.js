@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import ReactTooltip from 'react-tooltip';
-import { SkillsListData, renderSkills } from './SkillsListData';
+import ReactTooltip from "react-tooltip";
+import Icons from "./SkillsListData";
 import anime from "animejs/lib/anime.es.js";
 import Nav from "../Navigation/Navigation";
 import "./Header.scss";
@@ -65,6 +65,13 @@ class Header extends Component {
     });
   };
 
+  onMobileLinkClick = (event) => {
+    window.location.hash = `#${event.currentTarget.dataset.id}`;
+    this.setState({
+      hamburger: false,
+    });
+  }
+
   render() {
     const descLettersString = `Hello!`;
     const splitString = descLettersString.split("");
@@ -73,8 +80,9 @@ class Header extends Component {
       <section id="aboutme" class="about">
         <Nav
           mobile={this.state.mobile}
-          onMobileButtonClick={this.onMobileButtonClick}
           hamburger={this.state.hamburger}
+          onMobileButtonClick={this.onMobileButtonClick}
+          onMobileLinkClick={this.onMobileLinkClick}
         />
         <div class="about__wrapper">
           <h1 class="ml14 about__header">
@@ -92,7 +100,7 @@ class Header extends Component {
             </span>
           </h1>
           <audio id="myName">
-            <source src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pl-S%C5%82awek.ogg"/>
+            <source src="https://upload.wikimedia.org/wikipedia/commons/3/38/Pl-S%C5%82awek.ogg" />
             <source src="https://od.lk/s/MjlfMTMxMTE3MjJf/Slawek2.mp3" />
           </audio>
           <div className="about-desc">
@@ -102,10 +110,10 @@ class Header extends Component {
                 <i
                   onClick={() => document.getElementById("myName").play()}
                   className="fas fa-volume-up volume-icon"
-                  data-tip 
-                  data-for='pronunciation'
+                  data-tip
+                  data-for="pronunciation"
                 />
-                <ReactTooltip id='pronunciation' type='info' place='top'>
+                <ReactTooltip id="pronunciation" type="info" place="top">
                   <span className="about-desc__tooltip">/ˈswa.vɛk/</span>
                 </ReactTooltip>
               </span>
@@ -117,15 +125,9 @@ class Header extends Component {
             <p className="about-desc__para">
               and solving {this.state.mobile ? <br /> : null}coding problems.
             </p>
-
             <p className="about-desc__para">Here's my portfolio.</p>
           </div>
-          <div class="skills">
-            <h2 class="skills__header">EXPERIENCE WITH</h2>
-            <div class="skills__new-icons">
-              {SkillsListData.map(renderSkills)}
-            </div>
-          </div>
+          <Icons />
         </div>
       </section>
     );
