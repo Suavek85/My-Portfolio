@@ -66,6 +66,7 @@ class Header extends Component {
   };
 
   onMobileLinkClick = (event) => {
+    window.location.hash = '';
     window.location.hash = `#${event.currentTarget.dataset.id}`;
     this.setState({
       hamburger: false,
@@ -77,7 +78,7 @@ class Header extends Component {
     const splitString = descLettersString.split("");
 
     return (
-      <section id="aboutme" class="about">
+      <section id="aboutme" className="about">
         <Nav
           mobile={this.state.mobile}
           hamburger={this.state.hamburger}
