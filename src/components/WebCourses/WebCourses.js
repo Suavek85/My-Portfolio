@@ -4,8 +4,7 @@ import { webCoursesInfo } from './WebCoursesInfo';
 
 const WebCourses = () => (
   <section id="mycourses" class="section-courses__flex">
-    <h1 style={{color: '#FEA95E'}}>SELECTED WEB DEVELOPER COURSES COMPLETED:</h1>
-
+    <h1>selected web developer courses completed:</h1>
     {webCoursesInfo.map(el => {
       return (
         <div class="courses__flex">
