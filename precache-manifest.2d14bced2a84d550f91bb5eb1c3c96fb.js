@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "629c61ec948996f2141ac5f89cc037b5",
+    "revision": "cb95e1a7ad722928b233416af196d651",
     "url": "/My-Portfolio/index.html"
   },
   {
-    "revision": "e8a841e4cce5b3828034",
-    "url": "/My-Portfolio/static/css/4.f5ad48d7.chunk.css"
+    "revision": "e9b8726afa49b6ab3479",
+    "url": "/My-Portfolio/static/css/4.84c47aff.chunk.css"
   },
   {
-    "revision": "956cec05ec13ee348e79",
-    "url": "/My-Portfolio/static/css/main.06c1a47b.chunk.css"
+    "revision": "aa015437904f18331518",
+    "url": "/My-Portfolio/static/css/main.e304e5cb.chunk.css"
   },
   {
-    "revision": "7f9b13055f2359553558",
-    "url": "/My-Portfolio/static/js/2.4fca4e21.chunk.js"
+    "revision": "106e970c9aa4a3957775",
+    "url": "/My-Portfolio/static/js/2.4a89f9b1.chunk.js"
   },
   {
-    "revision": "59ee621c7c61e8c3fc8e",
-    "url": "/My-Portfolio/static/js/3.aa64ac67.chunk.js"
+    "revision": "7dac1ffbf134f748ad4e",
+    "url": "/My-Portfolio/static/js/3.be00df6b.chunk.js"
   },
   {
-    "revision": "e8a841e4cce5b3828034",
-    "url": "/My-Portfolio/static/js/4.bd154bf5.chunk.js"
+    "revision": "e9b8726afa49b6ab3479",
+    "url": "/My-Portfolio/static/js/4.4cf01c69.chunk.js"
   },
   {
-    "revision": "956cec05ec13ee348e79",
-    "url": "/My-Portfolio/static/js/main.ba9c29ea.chunk.js"
+    "revision": "aa015437904f18331518",
+    "url": "/My-Portfolio/static/js/main.2ba19116.chunk.js"
   },
   {
-    "revision": "63cb9281cfbc156aadb4",
-    "url": "/My-Portfolio/static/js/runtime~main.5c49571d.js"
+    "revision": "f8d520da102984c69f91",
+    "url": "/My-Portfolio/static/js/runtime~main.544f52df.js"
   },
   {
     "revision": "01441d4f9f73145635b5bc7e53cb610f",
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/My-Portfolio/static/media/new-white-villages.da7b2538.PNG"
   },
   {
-    "revision": "13078d3724fd881a36204970293c49d1",
-    "url": "/My-Portfolio/static/media/udemy1.13078d37.png"
+    "revision": "37aa15d5e11779296c3fa94a7f2e7e03",
+    "url": "/My-Portfolio/static/media/web-speed-screenshot.37aa15d5.PNG"
   }
 ]);
