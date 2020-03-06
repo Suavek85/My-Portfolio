@@ -4,7 +4,7 @@ import { webCoursesInfo } from './WebCoursesInfo';
 
 const WebCourses = () => (
   <section id="mycourses" class="section-courses__flex">
-    <h1>selected web developer courses completed:</h1>
+    <h1>projects completed during courses:</h1>
     {webCoursesInfo.map(el => {
       return (
         <div class="courses__flex">

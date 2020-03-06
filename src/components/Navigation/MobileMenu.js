@@ -2,19 +2,34 @@ import React from "react";
 import "./Navigation.scss";
 import NavList from "./NavigationList";
 import PropTypes from "prop-types";
+import cls from 'classnames';
 
 const MobileButton = props => {
+
+  const { hamburger, onMobileButtonClick, mobile, onMobileLinkClick } = props;
+
+  const getHamburgerClass = () => {
+    return cls({
+      'hamburger--active hamburger': hamburger,
+      'hamburger': true,
+    })
+  }
+
   return (
-    <div className={props.hamburger ? "menu__opened" : "menu__closed"}>
+    <div className={hamburger ? "menu__opened" : "menu__closed"}>
       <div
-        className={props.hamburger ? "hamburger--active hamburger" : "hamburger"}
-        onClick={props.onMobileButtonClick}
+        className={getHamburgerClass()}
+        onClick={onMobileButtonClick}
       >
-        <span class="hamburger__container" >
-          <span class="hamburger__bars" />
+        <span className="hamburger__container" >
+          <span className="hamburger__bars" />
         </span>
       </div>
-      <NavList onMobileLinkClick={props.onMobileLinkClick} mobile={props.mobile} hamburger={props.hamburger} />
+      <NavList 
+        onMobileLinkClick={onMobileLinkClick} 
+        mobile={mobile} 
+        hamburger={hamburger} 
+      />
     </div>
   );
 };

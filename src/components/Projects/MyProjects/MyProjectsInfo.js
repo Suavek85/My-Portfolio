@@ -6,6 +6,7 @@ import Background5 from "../../Images/new-white-villages.PNG";
 import Background6 from "../../Images/new-playgrounds.PNG";
 import Background7 from "../../Images/new-jigsaw.PNG";
 import Background8 from "../../Images/geo-app-basic.jpg";
+import Background9 from "../../Images/web-speed-screenshot.PNG";
 
 export const myProjectsInfo = [
   {
@@ -27,6 +28,16 @@ export const myProjectsInfo = [
     previewLink: "https://suavek85.github.io/Music-Song-App-with-Redux/",
     readmeLink:
       "https://github.com/Suavek85/Music-Song-App-with-Redux/blob/master/README.md",
+    lineBreak: false
+  },
+  {
+    name: "Web Speed App. (WIP)",
+    subName: "React.js app using Hooks, Redux.",
+    desc: "React.js app using Hooks, Redux.",
+    background: Background9,
+    previewLink: "https://suavek85.github.io/Web-Speed-App/",
+    readmeLink:
+      "https://github.com/Suavek85/Web-Speed-App/blob/master/README.md",
     lineBreak: false
   },
   {
@@ -71,7 +82,7 @@ export const myProjectsInfo = [
       "https://suavek85.github.io/Beach-Jigsaw-Puzzle-Game/index.html",
     readmeLink:
       "https://github.com/Suavek85/Beach-Jigsaw-Puzzle-Game/blob/master/README.md",
-    lineBreak: true
+    lineBreak: false
   },
   {
     name: "White Villages Tours.",

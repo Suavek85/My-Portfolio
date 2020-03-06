@@ -6,8 +6,7 @@ const NavList = props => {
   const navItemData = [
     { name: "ABOUT", dataAtt: "aboutme", key: 1 },
     { name: "OWN PROJECTS", dataAtt: "ownprojects", key: 2 },
-    { name: "COURSES PROJECTS", dataAtt: "coursesprojects", key: 3 },
-    { name: "COURSES", dataAtt: "mycourses", key: 4 },
+    { name: "COURSES PROJECTS", dataAtt: "mycourses", key: 4 },
     { name: "CONTACT", dataAtt: "contactme", key: 5 }
   ];
   return (
