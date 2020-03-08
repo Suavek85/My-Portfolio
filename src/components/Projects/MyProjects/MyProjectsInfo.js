@@ -7,6 +7,7 @@ import Background6 from "../../Images/new-playgrounds.PNG";
 import Background7 from "../../Images/new-jigsaw.PNG";
 import Background8 from "../../Images/geo-app-basic.jpg";
 import Background9 from "../../Images/web-speed-screenshot.PNG";
+import Background10 from "../../Images/new-calculator.PNG";
 
 export const myProjectsInfo = [
   {
@@ -41,7 +42,7 @@ export const myProjectsInfo = [
     lineBreak: false
   },
   {
-    name: "Geo App Basic",
+    name: "Geo App Basic (WIP)",
     subName: "Angular App on Firebase.",
     desc:
       "Angular, Material Design + Bing Maps API app. IN PROGRESS",
@@ -49,6 +50,17 @@ export const myProjectsInfo = [
     previewLink: "https://geo-app-basic.firebaseapp.com/",
     readmeLink:
       "https://github.com/Suavek85/Geo-App-Basic",
+    lineBreak: false
+  },
+  {
+    name: "Calculator with Hooks.",
+    subName: "Small React app using Hooks.",
+    desc:
+      "Simple Calculator. Only allows calculations on two numbers at once.",
+    background: Background10,
+    previewLink: "https://suavek85.github.io/Calculator-with-Hooks/",
+    readmeLink:
+      "https://github.com/Suavek85/Calculator-with-Hooks/blob/master/README.md",
     lineBreak: false
   },
   {
