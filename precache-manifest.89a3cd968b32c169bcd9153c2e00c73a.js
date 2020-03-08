@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb95e1a7ad722928b233416af196d651",
+    "revision": "1d7a9810f095408fa9fd4f263ee902d6",
     "url": "/My-Portfolio/index.html"
   },
   {
-    "revision": "e9b8726afa49b6ab3479",
+    "revision": "9f69d7cf20c71006bc94",
     "url": "/My-Portfolio/static/css/4.84c47aff.chunk.css"
   },
   {
-    "revision": "aa015437904f18331518",
+    "revision": "d86aebb5f0d2f729a848",
     "url": "/My-Portfolio/static/css/main.e304e5cb.chunk.css"
   },
   {
-    "revision": "106e970c9aa4a3957775",
-    "url": "/My-Portfolio/static/js/2.4a89f9b1.chunk.js"
+    "revision": "219db003fb14ffc2752b",
+    "url": "/My-Portfolio/static/js/2.c913218a.chunk.js"
   },
   {
-    "revision": "7dac1ffbf134f748ad4e",
-    "url": "/My-Portfolio/static/js/3.be00df6b.chunk.js"
+    "revision": "aa9268d22b3294fb0168",
+    "url": "/My-Portfolio/static/js/3.5c76ce89.chunk.js"
   },
   {
-    "revision": "e9b8726afa49b6ab3479",
-    "url": "/My-Portfolio/static/js/4.4cf01c69.chunk.js"
+    "revision": "9f69d7cf20c71006bc94",
+    "url": "/My-Portfolio/static/js/4.b9465d55.chunk.js"
   },
   {
-    "revision": "aa015437904f18331518",
-    "url": "/My-Portfolio/static/js/main.2ba19116.chunk.js"
+    "revision": "d86aebb5f0d2f729a848",
+    "url": "/My-Portfolio/static/js/main.b49b09c2.chunk.js"
   },
   {
-    "revision": "f8d520da102984c69f91",
-    "url": "/My-Portfolio/static/js/runtime~main.544f52df.js"
+    "revision": "52c89aedef0b8274ccac",
+    "url": "/My-Portfolio/static/js/runtime~main.26067131.js"
   },
   {
     "revision": "01441d4f9f73145635b5bc7e53cb610f",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "796145117515123da1ce11702c79a222",
     "url": "/My-Portfolio/static/media/new-annual-planner.79614511.PNG"
+  },
+  {
+    "revision": "2c110dcd04bd683dff03f09763d2ae45",
+    "url": "/My-Portfolio/static/media/new-calculator.2c110dcd.PNG"
   },
   {
     "revision": "6684c1d3a0dbbf7874a42331f9772db2",
