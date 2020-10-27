@@ -5,8 +5,8 @@ import "./Navigation.scss";
 const NavList = props => {
   const navItemData = [
     { name: "ABOUT", dataAtt: "aboutme", key: 1 },
-    { name: "OWN PROJECTS", dataAtt: "ownprojects", key: 2 },
-    { name: "COURSES PROJECTS", dataAtt: "mycourses", key: 4 },
+    { name: "PROJECTS", dataAtt: "ownprojects", key: 2 },
+    { name: "EXPERIENCE", dataAtt: "experience", key: 4 },
     { name: "CONTACT", dataAtt: "contactme", key: 5 }
   ];
   return (

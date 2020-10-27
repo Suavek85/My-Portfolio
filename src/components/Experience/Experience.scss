@@ -1,0 +1,28 @@
+/* TYPOGRAPHY */
+
+section > h1 {
+  color: 'indianred';
+  text-transform: uppercase;
+}
+
+/* COURSES CARD CONTAINER */
+.experience {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    background: #00467f;
+    background-image: linear-gradient(to right,
+        rgba(20, 30, 48, 0.8),
+        rgba(36, 59, 85, 0.8)),
+      url(../../assets/courses-img.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+  h1 {
+    width: 100%;
+  }
+}

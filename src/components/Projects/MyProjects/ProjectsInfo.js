@@ -1,13 +1,16 @@
-import Background1 from "../../Images/new-annual-planner.PNG";
-import Background2 from "../../Images/new-music-app.PNG";
-import Background3 from "../../Images/new-emoticon-app.PNG";
-import Background4 from "../../Images/new-typing-game.PNG";
-import Background5 from "../../Images/new-white-villages.PNG";
-import Background6 from "../../Images/new-playgrounds.PNG";
-import Background7 from "../../Images/new-jigsaw.PNG";
-import Background8 from "../../Images/geo-app-basic.jpg";
-import Background9 from "../../Images/web-speed-screenshot.PNG";
-import Background10 from "../../Images/new-calculator.PNG";
+import Background1 from "../../../assets/new-annual-planner.PNG";
+import Background2 from "../../../assets/new-music-app.PNG";
+import Background3 from "../../../assets/new-emoticon-app.PNG";
+import Background4 from "../../../assets/new-typing-game.PNG";
+import Background5 from "../../../assets/new-white-villages.PNG";
+import Background6 from "../../../assets/new-playgrounds.PNG";
+import Background7 from "../../../assets/new-jigsaw.PNG";
+import Background8 from "../../../assets/geo-app-basic.jpg";
+import Background9 from "../../../assets/web-speed-screenshot.PNG";
+import Background10 from "../../../assets/new-calculator.PNG";
+import Background11 from "../../../assets/new-face-recognition.PNG";
+import Background12 from "../../../assets/new-robo-friends.PNG";
+import Background13 from "../../../assets/new-pig-game.PNG";
 
 export const myProjectsInfo = [
   {
@@ -32,9 +35,9 @@ export const myProjectsInfo = [
     lineBreak: false
   },
   {
-    name: "Web Speed App. (WIP)",
-    subName: "React.js app using Hooks, Redux.",
-    desc: "React.js app using Hooks, Redux.",
+    name: "Web Speed App",
+    subName: "React.js, Hooks, Redux.",
+    desc: "React.js app using Hooks, Redux, Lighthouse API, Jest, Enzyme, Cypress.",
     background: Background9,
     previewLink: "https://suavek85.github.io/Web-Speed-App/",
     readmeLink:
@@ -42,10 +45,10 @@ export const myProjectsInfo = [
     lineBreak: false
   },
   {
-    name: "Geo App Basic (WIP)",
+    name: "Geo App Basic",
     subName: "Angular App on Firebase.",
     desc:
-      "Angular, Material Design + Bing Maps API app. IN PROGRESS",
+      "Angular, Material Design using Bing Maps API app, on GH pages.",
     background: Background8,
     previewLink: "https://geo-app-basic.firebaseapp.com/",
     readmeLink:
@@ -53,8 +56,8 @@ export const myProjectsInfo = [
     lineBreak: false
   },
   {
-    name: "Calculator with Hooks.",
-    subName: "Small React app using Hooks.",
+    name: "Basic Calculator",
+    subName: "React project with Hooks.",
     desc:
       "Simple Calculator. Only allows calculations on two numbers at once.",
     background: Background10,
@@ -67,7 +70,7 @@ export const myProjectsInfo = [
     name: "Emoticon Editor.",
     subName: "React App.",
     desc:
-      "Allows creating and downloading custom SVG emoticons, with React Bootstrap.",
+      "Creare and download custom SVG emoticons, with React Bootstrap.",
     background: Background3,
     previewLink: "https://suavek85.github.io/Emoticon-Editor-App/",
     readmeLink:
@@ -85,7 +88,7 @@ export const myProjectsInfo = [
     lineBreak: false
   },
   {
-    name: "Jigsaw Puzzle Game.",
+    name: "Jigsaw Puzzle",
     subName: "jQuery UI Project.",
     desc:
       "Created to practice jQuery UI. With Bootstrap. Just started, in progress.",
@@ -97,9 +100,9 @@ export const myProjectsInfo = [
     lineBreak: false
   },
   {
-    name: "White Villages Tours.",
+    name: "White Villages",
     subName: "Website homepage.",
-    desc: "Flexbox, CSS Grid and some basic responsiveness.",
+    desc: "Flexbox, CSS Grid and some basic responsiveness for a homepage.",
     background: Background5,
     previewLink: "https://suavek85.github.io/White-Village-Tours-Homepage/",
     readmeLink:
@@ -116,5 +119,37 @@ export const myProjectsInfo = [
     readmeLink:
       "https://github.com/Suavek85/Playgrounds-on-Costa-del-Sol/blob/master/README.md",
     lineBreak: false
-  }
+  },
 ];
+
+
+export const coursesProjects = [
+  {
+    name: "Face Recognition",
+    subName: "React App with backend",
+    desc:
+      "From 'The Complete Web Developer in 2018' course. Udemy.",
+    background: Background11,
+    previewLink: "https://face-recognition-smart.herokuapp.com/",
+    readmeLink: "https://face-recognition-smart.herokuapp.com/",
+  },
+  {
+    name: "Robofriends. Simple React App.",
+    subName: "Robofriends. Simple React App.",
+    desc:
+      "From 'The Complete Web Developer in 2018' course.",
+    background: Background12,
+    previewLink: "https://suavek85.github.io/Robofriends---React-app/",
+    readmeLink: "https://suavek85.github.io/Robofriends---React-app/",
+  },
+  {
+    name: "Pig Game. JavaScript Game.",
+    subName: "Pig Game. JavaScript Game.",
+    desc:
+      "From 'The Complete JavaScript Course 2018: Build Real Projects! Udemy.",
+    background: Background13,
+    previewLink: "https://htmlpreview.github.io/?https://github.com/Suavek85/The-Complete-JavaScript-Course-2018/blob/master/DOM%20Pig%20Game/index.html",
+    readmeLink: "https://htmlpreview.github.io/?https://github.com/Suavek85/The-Complete-JavaScript-Course-2018/blob/master/DOM%20Pig%20Game/index.html",
+  },
+
+]

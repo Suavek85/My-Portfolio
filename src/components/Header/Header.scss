@@ -6,7 +6,7 @@
   background-image: linear-gradient(to right,
       rgba(20, 30, 48, 0.9),
       rgba(36, 59, 85, 0.9)),
-    url(../Images/about-img.jpg);
+    url(../../assets/about-img.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -22,6 +22,7 @@
 
 .about-desc {
   display: flex;
+  padding-bottom: 40px;
   flex-direction: column;
   align-items: center;
   color: white;
@@ -45,42 +46,6 @@
     font-weight: 500;
     color: white;
   }
-}
-
-
-/* SKILLS */
-
-.skills {
-  color: #f2f5f7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-
-  &__header {
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 30px;
-    display: block;
-  }
-
-  &__new-icons {
-    display: flex;
-    font-size: 50px;
-    width: 700px;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px 20px;
-    margin-top: 30px;
-    transform: translateY(370px);
-  }
-
-}
-
-.staggering {
-  flex-basis: calc(100% / 8);
-  padding: 0px 0 20px 0;
 }
 
 /* ANIME.JS H1 ANIMATION */
@@ -117,7 +82,7 @@
 /* VOLUME ICON */
 
 .volume-icon {
-  color: orange;
+  color: indianred;
   cursor: pointer;
   padding-left: 5px
 }
@@ -146,16 +111,6 @@
   .skills__header {
     margin: auto;
     padding-top: 5px;
-  }
-
-  .skills {
-    margin-top: 50px;
-
-    &__new-icons {
-      font-size: 40px;
-      padding: 20px 20px;
-      width: 100%;
-    }
   }
 
   .staggering {

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ReactTooltip from "react-tooltip";
-import Icons from "./SkillsListData";
 import anime from "animejs/lib/anime.es.js";
 import Nav from "../Navigation/Navigation";
 import "./Header.scss";
@@ -126,9 +125,9 @@ class Header extends Component {
             <p className="about-desc__para">
               and solving {this.state.mobile ? <br /> : null}coding problems.
             </p>
-            <p className="about-desc__para">Here's my portfolio.</p>
+            <p className="about-desc__para">Here's my portfolio</p>
+            <p className="about-desc__para">a.k.a. playground.</p>
           </div>
-          <Icons />
         </div>
       </section>
     );
