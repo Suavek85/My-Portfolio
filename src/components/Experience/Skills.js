@@ -26,7 +26,7 @@ const Icons = () => {
       <div class="skills__new-icons">
         { skillsListData.map(renderSkills) }
       </div>
-      <p>Redux, React Spring, Express.js, Webpack, New Relic, SQL, Angular, Docker.</p>
+      <p>Redux, Jest, Enzyme, Mocha, React Spring, Express.js, Webpack, New Relic, SQL, Angular, Docker.</p>
     </div>
   );
 };

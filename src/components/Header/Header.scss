@@ -2,6 +2,7 @@
 
 .about {
   width: 100vw;
+  min-height: 100vh;
   background: #00467f;
   background-image: linear-gradient(to right,
       rgba(20, 30, 48, 0.9),
@@ -22,7 +23,7 @@
 
 .about-desc {
   display: flex;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   flex-direction: column;
   align-items: center;
   color: white;
