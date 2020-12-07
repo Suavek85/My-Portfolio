@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e550b8b67dc303dee1b1572df0e00695",
+    "revision": "86e19fab780adfbcfb23729629616570",
     "url": "/My-Portfolio/index.html"
   },
   {
-    "revision": "146820438f550e2f646c",
-    "url": "/My-Portfolio/static/css/main.5a73b999.chunk.css"
+    "revision": "0108f961152e4e8c22ae",
+    "url": "/My-Portfolio/static/css/main.cebe69f0.chunk.css"
   },
   {
-    "revision": "9480b5c5d0528ff7af98",
-    "url": "/My-Portfolio/static/js/2.7fe530cd.chunk.js"
+    "revision": "661e96cdd27c254baaa4",
+    "url": "/My-Portfolio/static/js/2.c3aeb846.chunk.js"
   },
   {
-    "revision": "146820438f550e2f646c",
-    "url": "/My-Portfolio/static/js/main.9012e8e2.chunk.js"
+    "revision": "0108f961152e4e8c22ae",
+    "url": "/My-Portfolio/static/js/main.4c974b23.chunk.js"
   },
   {
     "revision": "b7d4bf292e75006047a4",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "da7b25385ec86cde85732561ad9e2b94",
     "url": "/My-Portfolio/static/media/new-white-villages.da7b2538.PNG"
+  },
+  {
+    "revision": "bace75aca5145dcf063d8fd62a40fe9e",
+    "url": "/My-Portfolio/static/media/travel-blog.bace75ac.png"
   },
   {
     "revision": "37aa15d5e11779296c3fa94a7f2e7e03",

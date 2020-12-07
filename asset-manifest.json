@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.5a73b999.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.9012e8e2.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.9012e8e2.chunk.js.map",
+    "main.css": "/My-Portfolio/static/css/main.cebe69f0.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.4c974b23.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.4c974b23.chunk.js.map",
     "runtime~main.js": "/My-Portfolio/static/js/runtime~main.f7066801.js",
     "runtime~main.js.map": "/My-Portfolio/static/js/runtime~main.f7066801.js.map",
-    "static/js/2.7fe530cd.chunk.js": "/My-Portfolio/static/js/2.7fe530cd.chunk.js",
-    "static/js/2.7fe530cd.chunk.js.map": "/My-Portfolio/static/js/2.7fe530cd.chunk.js.map",
+    "static/js/2.c3aeb846.chunk.js": "/My-Portfolio/static/js/2.c3aeb846.chunk.js",
+    "static/js/2.c3aeb846.chunk.js.map": "/My-Portfolio/static/js/2.c3aeb846.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "precache-manifest.200f41d8e899f0345f08fb1118c33e96.js": "/My-Portfolio/precache-manifest.200f41d8e899f0345f08fb1118c33e96.js",
+    "precache-manifest.096b7142ca0be717f9b3823706fbb9d3.js": "/My-Portfolio/precache-manifest.096b7142ca0be717f9b3823706fbb9d3.js",
     "service-worker.js": "/My-Portfolio/service-worker.js",
-    "static/css/main.5a73b999.chunk.css.map": "/My-Portfolio/static/css/main.5a73b999.chunk.css.map",
+    "static/css/main.cebe69f0.chunk.css.map": "/My-Portfolio/static/css/main.cebe69f0.chunk.css.map",
     "static/media/Header.scss": "/My-Portfolio/static/media/about-img.01441d4f.jpg",
     "static/media/Experience.scss": "/My-Portfolio/static/media/courses-img.8795519b.jpg",
     "static/media/geo-app-basic.jpg": "/My-Portfolio/static/media/geo-app-basic.0d4574a6.jpg",
@@ -25,6 +25,7 @@
     "static/media/new-robo-friends.PNG": "/My-Portfolio/static/media/new-robo-friends.ea9b7c86.PNG",
     "static/media/new-typing-game.PNG": "/My-Portfolio/static/media/new-typing-game.8c6b2d2c.PNG",
     "static/media/new-white-villages.PNG": "/My-Portfolio/static/media/new-white-villages.da7b2538.PNG",
+    "static/media/travel-blog.png": "/My-Portfolio/static/media/travel-blog.bace75ac.png",
     "static/media/web-speed-screenshot.PNG": "/My-Portfolio/static/media/web-speed-screenshot.37aa15d5.PNG"
   }
 }
