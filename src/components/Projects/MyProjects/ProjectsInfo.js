@@ -11,6 +11,7 @@ import Background10 from "../../../assets/new-calculator.PNG";
 import Background11 from "../../../assets/new-face-recognition.PNG";
 import Background12 from "../../../assets/new-robo-friends.PNG";
 import Background13 from "../../../assets/new-pig-game.PNG";
+import Background14 from "../../../assets/travel-blog.png";
 
 export const myProjectsInfo = [
   {
@@ -42,6 +43,16 @@ export const myProjectsInfo = [
     previewLink: "https://suavek85.github.io/Web-Speed-App/",
     readmeLink:
       "https://github.com/Suavek85/Web-Speed-App/blob/master/README.md",
+    lineBreak: false
+  },
+  {
+    name: "Travel Blog",
+    subName: "Gatsby.js, React Context API",
+    desc: "Gatsby.js template for a travelling blog.",
+    background: Background14,
+    previewLink: "https://suavek85.github.io/Travel-Journal-Blog/",
+    readmeLink:
+      "https://github.com/Suavek85/Travel-Journal-Blog/tree/develop",
     lineBreak: false
   },
   {
