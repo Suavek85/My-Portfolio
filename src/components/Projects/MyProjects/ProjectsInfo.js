@@ -12,11 +12,12 @@ import Background11 from "../../../assets/new-face-recognition.PNG";
 import Background12 from "../../../assets/new-robo-friends.PNG";
 import Background13 from "../../../assets/new-pig-game.PNG";
 import Background14 from "../../../assets/travel-blog.png";
+import Background15 from "../../../assets/chat.png";
 
 export const myProjectsInfo = [
   {
-    name: "Annual Planner.",
-    subName: "Vanilla JS + backend.",
+    name: "Annual Planner",
+    subName: "Vanilla JS + backend",
     desc: "Expanded to-do app. Front-end on GitHub Pages, backend on Heroku.",
     background: Background1,
     previewLink: "https://suavek85.github.io/Annual-Planner/",
@@ -25,8 +26,8 @@ export const myProjectsInfo = [
     lineBreak: false
   },
   {
-    name: "Music Song App.",
-    subName: "React App with Redux.",
+    name: "Music Song App",
+    subName: "React App with Redux",
     desc:
       "Find top songs of any artist or band. Then watch them on Youtube and more.",
     background: Background2,
@@ -37,12 +38,22 @@ export const myProjectsInfo = [
   },
   {
     name: "Web Speed App",
-    subName: "React.js, Hooks, Redux.",
+    subName: "React.js, Hooks, Redux",
     desc: "React.js app using Hooks, Redux, Lighthouse API, Jest, Enzyme, Cypress.",
     background: Background9,
     previewLink: "https://suavek85.github.io/Web-Speed-App/",
     readmeLink:
       "https://github.com/Suavek85/Web-Speed-App/blob/master/README.md",
+    lineBreak: false
+  },
+  {
+    name: "Basic Chat App",
+    subName: "React.js, Hooks, Websocket.io",
+    desc: "Simple Skype-like Chat App with server code",
+    background: Background15,
+    previewLink: "https://github.com/Suavek85/Basic-Chat-App",
+    readmeLink:
+      "https://github.com/Suavek85/Basic-Chat-App/blob/master/README.md",
     lineBreak: false
   },
   {
